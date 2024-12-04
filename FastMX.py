@@ -96,7 +96,6 @@ for index, row in bom_data.iterrows():
             bom_data.at[index, '父件的数量'] = ''
 
 
-# 
 
 
 if bom_data is not None:
