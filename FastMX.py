@@ -14,7 +14,8 @@ def import_bom_data(file_path):
     return bom_data
 
 # 文件路径为D:\万合光电\WHJ82蒸发波导诊断系统\BOM.xlsx
-bom_data = import_bom_data('E:/万合结构/1项目/WHJ82蒸发波导诊断系统/总BOM.xlsx')
+# bom_data = import_bom_data('E:/万合结构/1项目/WHJ82蒸发波导诊断系统/总BOM.xlsx')
+bom_data = import_bom_data('D:/万合光电/WHJ82蒸发波导诊断系统/BOM.xlsx')
 if bom_data is not None:
     # # 将BOM数据前几行打印出来
     # print(bom_data.head())  
@@ -40,6 +41,8 @@ if bom_data is not None:
     bom_data = bom_data[bom_data['备注'] != '连接器自带电缆']
 
 
+bom_data = bom_data.reset_index(drop=True)
+
 
 # 4. 新建列存储“父件的名称”、“父件的数量”、“总数量”
 bom_data['父件的名称'] = ''
@@ -49,6 +52,20 @@ bom_data['父件的数量'] = ''
 
 # 将“阶层”列转换为字符串格式
 bom_data['阶层'] = bom_data['阶层'].astype(str)
+
+
+for i in range(1, len(bom_data)):
+    current_value = bom_data.loc[i, '阶层']
+    previous_value = bom_data.loc[i-1, '阶层']
+    # 检查当前值是否符合“n.1”的模式
+    if current_value.endswith('.1') and current_value.count('.') == 1:
+        # 去掉“.1”得到n
+        stripped_value = current_value[:-2]
+        
+        # 检查上一行的值是否是去掉“.1”后的整数n
+        if previous_value != stripped_value:
+            # 在当前值的末尾补一个“0”
+            bom_data.at[i, '阶层'] = f"{current_value}0"
 
 
 # 遍历BOM数据修改“父件的名称”和“父件的数量”
@@ -78,14 +95,19 @@ for index, row in bom_data.iterrows():
         else:
             bom_data.at[index, '父件的数量'] = ''
 
-# bom_data['总数量'] = (bom_data["数量"].astype(int) * bom_data["父件的数量"].astype(int))
+
+# 
+
 
 if bom_data is not None:
     # 在同目录下生成新的excel
-    bom_data.to_excel('E:/万合结构/1项目/WHJ82蒸发波导诊断系统/BOM数据修改.xlsx', index=False)
+    # bom_data.to_excel('E:/万合结构/1项目/WHJ82蒸发波导诊断系统/BOM数据修改.xlsx', index=False)
+    bom_data.to_excel('D:/万合光电/WHJ82蒸发波导诊断系统/BOM数据修改.xlsx', index=False)
     print("BOM数据修改成功")
 else:
     print("BOM数据修改失败")
+
+
 
 
 
