@@ -14,10 +14,10 @@ def import_bom_data(file_path):
     return bom_data
 
 # 文件路径为D:\万合光电\WHJ82蒸发波导诊断系统\BOM.xlsx
-bom_data = import_bom_data('D:\万合光电\WHJ82蒸发波导诊断系统\BOM.xlsx')
+bom_data = import_bom_data('E:/万合结构/1项目/WHJ82蒸发波导诊断系统/总BOM.xlsx')
 if bom_data is not None:
-    # 将BOM数据前几行打印出来
-    print(bom_data.head())  
+    # # 将BOM数据前几行打印出来
+    # print(bom_data.head())  
     print("BOM数据已成功导入")
 else:
     print("BOM数据导入失败")
@@ -43,25 +43,53 @@ if bom_data is not None:
 
 # 4. 新建列存储“父件的名称”、“父件的数量”、“总数量”
 bom_data['父件的名称'] = ''
-bom_data['父件的数量'] = '1'
-bom_data['总数量'] = bom_data["数量"] * bom_data["父件的数量"]
-# 根据零件的阶层判断其父件的名称和数量
-# 如果零件的阶层为正整数，其父件是阶层为0的零件，如果阶层为1.*，其父件是阶层为1的零件，如果阶层为1.1.*，其父件是阶层为1.1的零件，以此类推
-bom_data['父件的名称'] = bom_data['阶层'].apply(lambda x: x.split('.')[0])
-bom_data['父件的数量'] = bom_data['阶层'].apply(lambda x: x.split('.')[1] if len(x.split('.')) > 1 else '1')
-# 将父件的数量转换为整数
-bom_data['父件的数量'] = bom_data['父件的数量'].astype(int)
-# 计算总数量
-bom_data['总数量'] = bom_data['数量'] * bom_data['父件的数量']
+bom_data['父件的数量'] = ''
 
 
-print(bom_data.head())  # 打印修改后的BOM数据
+
+# 将“阶层”列转换为字符串格式
+bom_data['阶层'] = bom_data['阶层'].astype(str)
+
+
+# 遍历BOM数据修改“父件的名称”和“父件的数量”
+for index, row in bom_data.iterrows():
+    level = row['阶层']
+    if level == '0':
+        bom_data.at[index, '父件的名称'] = ''
+        bom_data.at[index, '父件的数量'] = ''
+    elif '.' not in level:
+        # 如果没有点，父件是阶层为0的零件
+        bom_data.at[index, '父件的名称'] = bom_data.loc[bom_data['阶层'] == '0', '零件名称'].values[0]
+        bom_data.at[index, '父件的数量'] = bom_data.loc[bom_data['阶层'] == '0', '数量'].values[0]
+    else:
+        # 如果存在点，去除最后一个点及后面的部分，剩下的字符串就是父件的阶层
+        parent_level = level.rsplit('.', 1)[0]
+        matches_name = bom_data.loc[bom_data['阶层'] == parent_level, '零件名称']
+
+        # 查找父件的名称和数量
+        if not matches_name.empty:
+            bom_data.at[index, '父件的名称'] = matches_name.values[0]
+        else:
+            bom_data.at[index, '父件的名称'] = ''
+        
+        matches_quantity = bom_data.loc[bom_data['阶层'] == parent_level, '数量']
+        if not matches_quantity.empty:
+            bom_data.at[index, '父件的数量'] = matches_quantity.values[0]
+        else:
+            bom_data.at[index, '父件的数量'] = ''
+
+# bom_data['总数量'] = (bom_data["数量"].astype(int) * bom_data["父件的数量"].astype(int))
 
 if bom_data is not None:
-    # 将BOM数据前几行打印出来
-    print(bom_data.head())
+    # 在同目录下生成新的excel
+    bom_data.to_excel('E:/万合结构/1项目/WHJ82蒸发波导诊断系统/BOM数据修改.xlsx', index=False)
+    print("BOM数据修改成功")
 else:
     print("BOM数据修改失败")
+
+
+
+
 
 
 
