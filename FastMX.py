@@ -15,8 +15,8 @@ def import_bom_data(file_path):
     return bom_data
 
 # 文件路径为D:\万合光电\WHJ82蒸发波导诊断系统\BOM.xlsx
-bom_data = import_bom_data('E:/万合结构/1项目/WHJ82蒸发波导诊断系统/总BOM.xlsx')
-# bom_data = import_bom_data('D:/万合光电/WHJ82蒸发波导诊断系统/BOM.xlsx')
+# bom_data = import_bom_data('E:/万合结构/1项目/WHJ82蒸发波导诊断系统/总BOM.xlsx')
+bom_data = import_bom_data('D:/万合光电/WHJ82蒸发波导诊断系统/BOM.xlsx')
 if bom_data is not None:
     # # 将BOM数据前几行打印出来
     # print(bom_data.head())  
@@ -44,7 +44,6 @@ bom_data = bom_data.reset_index(drop=True)
 bom_data['父件的名称'] = ''
 bom_data['父件的代号'] = ''
 bom_data['父件的数量'] = ''
-bom_data['总数量'] = ''
 
 
 
@@ -110,6 +109,10 @@ bom_data['父件的数量'] = pd.to_numeric(bom_data['父件的数量'], errors=
 bom_data['数量'] = bom_data['数量'].fillna(0)
 bom_data['父件的数量'] = bom_data['父件的数量'].fillna(0)
 
+# 将“数量_格式化”填充为“数量”×“父件的数量”的文字
+bom_data['数量_格式化'] = bom_data['数量'].astype(str) + '×' + bom_data['父件的数量'].astype(str)
+
+# bom_data['总数量'] = ''
 bom_data['总数量'] = bom_data['数量'].astype(int) * bom_data['父件的数量'].astype(int) 
 
 
@@ -120,6 +123,8 @@ bom_data['父件的代号'] = bom_data['父件的代号'].astype(str)
 bom_data = bom_data[bom_data['父件的代号'] != 'nan']
 bom_data = bom_data.reset_index(drop=True)
 
+
+####### 分类 #######
 # 创建"分类"列
 bom_data['分类'] = ''
 
@@ -159,50 +164,62 @@ bom_data['分类'] = bom_data['分类'].astype(str)
 
 bom_data = bom_data.sort_values(['分类', '文件名称', '零件名称'], ascending=[True, True, True])
 
+# 删除无用列
+bom_data = bom_data.drop(columns=['序号','父件的名称', '父件的数量','分类'])
 
-# 初始化一个空的DataFrame用于存储最终结果
-processed_bom_data = pd.DataFrame(columns=bom_data.columns)
 
-# 初始化一个空列表用于存储当前文件名称的行
-current_file_rows = []
-current_file_name = None
+# 选出重复的文件名称
+grouped = bom_data.groupby('文件名称').agg({
+    '总重(kg)': 'sum',
+    '总数量': 'sum'
+}).reset_index()
 
-for index, row in bom_data.iterrows():
-    # 检查是否遇到新的文件名称或到达最后一行
-    if row['文件名称'] != current_file_name and current_file_name is not None:
-        # 计算总数量
-        total_quantity = sum([r['总数量'] for r in current_file_rows])
-        # 创建汇总行
-        summary_row = current_file_rows[0].copy()
-        summary_row['总数量'] = total_quantity
-        # 将汇总行添加到结果DataFrame中
-        processed_bom_data = processed_bom_data.append(summary_row, ignore_index=True)
-        # 清空原行的内容（除了父件相关列和总数量）
-        for r in current_file_rows:
-            r[[col for col in bom_data.columns if col not in ['父件的名称', '父件的代号', '父件的数量', '总数量']]] = ''
-            processed_bom_data = processed_bom_data.append(r, ignore_index=True)
-        # 重置当前文件名称的行列表
-        current_file_rows = []
-    
-    # 将当前行添加到当前文件名称的行列表中
-    current_file_rows.append(row)
-    current_file_name = row['文件名称']
+# 提取bom_data中每个文件名称对应的总数量
+original_columns = bom_data.groupby('文件名称').agg({
+    '总数量': 'first'
+}).reset_index()
 
-# 处理最后一组行
-if current_file_rows:
-    total_quantity = sum([r['总数量'] for r in current_file_rows])
-    summary_row = current_file_rows[0].copy()
-    summary_row['总数量'] = total_quantity
-    processed_bom_data = processed_bom_data.append(summary_row, ignore_index=True)
-    for r in current_file_rows:
-        r[[col for col in bom_data.columns if col not in ['父件的名称', '父件的代号', '父件的数量', '总数量']]] = ''
-        processed_bom_data = processed_bom_data.append(r, ignore_index=True)
+# original_columns = bom_data.groupby('文件名称')[['总数量']].agg('first').reset_index()
+# 将聚合后的DataFrame与原始总数量DataFrame合并
+merged = pd.merge(grouped, original_columns, on='文件名称', how='left', suffixes=('_aggregated', '_original'))
 
+# 剔除那些总数量没有变化的行（即grouped中的总数量与原始总数量相同的行）
+filtered_grouped = merged[merged['总数量_aggregated'] != merged['总数量_original']]
+
+# 删除总数量_original列
+filtered_grouped = filtered_grouped.drop(columns=['总数量_original'])
+
+# 重命名总数量列
+filtered_grouped = filtered_grouped.rename(columns={'总数量_aggregated': '总数量'})
+
+# 重置索引
+filtered_grouped = filtered_grouped.reset_index(drop=True)
+
+# print(filtered_grouped)
+
+
+
+
+
+
+
+
+# # 原始列顺序
+# original_columns = [
+#     '零件代号', '零件名称', '文件名称', '数量', '材料', '单重(kg)', '总重(kg)', '备注', '父件的代号', '总数量'
+# ]
+
+# # 目标列顺序
+# target_columns = [
+#     '零件代号', '零件名称', '文件名称', '父件的代号', '数量', '总数量', '单重(kg)', '总重(kg)', '材料', '备注'
+# ]
+
+# bom_data = bom_data[[col for col in target_columns if col in bom_data.columns]]
 
 if bom_data is not None:
     # 在同目录下生成新的excel
-    bom_data.to_excel('E:/万合结构/1项目/WHJ82蒸发波导诊断系统/BOM数据修改.xlsx', index=False)
-    # bom_data.to_excel('D:/万合光电/WHJ82蒸发波导诊断系统/BOM数据修改.xlsx', index=False)
+    # bom_data.to_excel('E:/万合结构/1项目/WHJ82蒸发波导诊断系统/BOM数据修改.xlsx', index=False)
+    bom_data.to_excel('D:/万合光电/WHJ82蒸发波导诊断系统/BOM数据修改.xlsx', index=False)
     print("BOM数据修改成功")
 else:
     print("BOM数据修改失败")
