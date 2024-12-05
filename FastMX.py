@@ -25,13 +25,8 @@ else:
     print("BOM数据导入失败")
 
 
-# 1. 增加名为“文件名称”的列
-if '文件名称' not in bom_data.columns:
-    bom_data['文件名称'] = ''
 
-
-
-# 2. 删除名为“规格”的列
+# 删除名为“规格”的列
 if '规格' in bom_data.columns:
     bom_data = bom_data.drop(columns=['规格'])
 
@@ -45,7 +40,7 @@ if bom_data is not None:
 bom_data = bom_data.reset_index(drop=True)
 
 
-# 4. 新建列存储“父件的名称”、“父件的数量”、“总数量”
+# 新建列存储“父件的名称”、“父件的数量”、“总数量”
 bom_data['父件的名称'] = ''
 bom_data['父件的代号'] = ''
 bom_data['父件的数量'] = ''
@@ -111,9 +106,9 @@ for index, row in bom_data.iterrows():
 bom_data['数量'] = pd.to_numeric(bom_data['数量'], errors='coerce')
 bom_data['父件的数量'] = pd.to_numeric(bom_data['父件的数量'], errors='coerce')
 
-# 可以选择填充 NaN 值，例如用 0 填充
-bom_data['数量'].fillna(0, inplace=True)
-bom_data['父件的数量'].fillna(0, inplace=True)
+# 可以选择填充 nan 值
+bom_data['数量'] = bom_data['数量'].fillna(0)
+bom_data['父件的数量'] = bom_data['父件的数量'].fillna(0)
 
 bom_data['总数量'] = bom_data['数量'].astype(int) * bom_data['父件的数量'].astype(int) 
 
@@ -142,7 +137,7 @@ def classify_part(part_number):
         return '2分组件'
     elif re.match(r'WH.*0$', part_number):
         return '3部件'
-    elif re.match(r'WH.*[^-].*$', part_number):
+    elif re.match(r'WH[^-]*$', part_number):
         return '4分部件'
     elif re.match(r'WH.*-.*$', part_number):
         return '5零件'
@@ -153,6 +148,7 @@ def classify_part(part_number):
     else:
         return '8未分类'
 
+
 # 遍历数据框，为"分类"列赋值
 for index, row in bom_data.iterrows():
     part_number = row['零件代号']
@@ -161,12 +157,46 @@ for index, row in bom_data.iterrows():
 # 根据分类进行pair排序,顺序未成品>组件>分组件>部件>分部件>标准件>外购件
 bom_data['分类'] = bom_data['分类'].astype(str)
 
-bom_data = bom_data.sort_values(['分类', '零件代号','父件的代号'], ascending=[True, True, True])
-
-# # 如果存在重复的零件, 则只保留一条记录
-# bom_data = bom_data.drop_duplicates(['零件代号'], keep='first')
+bom_data = bom_data.sort_values(['分类', '文件名称', '零件名称'], ascending=[True, True, True])
 
 
+# 初始化一个空的DataFrame用于存储最终结果
+processed_bom_data = pd.DataFrame(columns=bom_data.columns)
+
+# 初始化一个空列表用于存储当前文件名称的行
+current_file_rows = []
+current_file_name = None
+
+for index, row in bom_data.iterrows():
+    # 检查是否遇到新的文件名称或到达最后一行
+    if row['文件名称'] != current_file_name and current_file_name is not None:
+        # 计算总数量
+        total_quantity = sum([r['总数量'] for r in current_file_rows])
+        # 创建汇总行
+        summary_row = current_file_rows[0].copy()
+        summary_row['总数量'] = total_quantity
+        # 将汇总行添加到结果DataFrame中
+        processed_bom_data = processed_bom_data.append(summary_row, ignore_index=True)
+        # 清空原行的内容（除了父件相关列和总数量）
+        for r in current_file_rows:
+            r[[col for col in bom_data.columns if col not in ['父件的名称', '父件的代号', '父件的数量', '总数量']]] = ''
+            processed_bom_data = processed_bom_data.append(r, ignore_index=True)
+        # 重置当前文件名称的行列表
+        current_file_rows = []
+    
+    # 将当前行添加到当前文件名称的行列表中
+    current_file_rows.append(row)
+    current_file_name = row['文件名称']
+
+# 处理最后一组行
+if current_file_rows:
+    total_quantity = sum([r['总数量'] for r in current_file_rows])
+    summary_row = current_file_rows[0].copy()
+    summary_row['总数量'] = total_quantity
+    processed_bom_data = processed_bom_data.append(summary_row, ignore_index=True)
+    for r in current_file_rows:
+        r[[col for col in bom_data.columns if col not in ['父件的名称', '父件的代号', '父件的数量', '总数量']]] = ''
+        processed_bom_data = processed_bom_data.append(r, ignore_index=True)
 
 
 if bom_data is not None:
@@ -176,5 +206,3 @@ if bom_data is not None:
     print("BOM数据修改成功")
 else:
     print("BOM数据修改失败")
-
-
