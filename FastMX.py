@@ -15,14 +15,28 @@ def import_bom_data(file_path):
     return bom_data
 
 # 文件路径为D:\万合光电\WHJ82蒸发波导诊断系统\BOM.xlsx
-# bom_data = import_bom_data('E:/万合结构/1项目/WHJ82蒸发波导诊断系统/总BOM.xlsx')
-bom_data = import_bom_data('D:/万合光电/WHJ82蒸发波导诊断系统/BOM.xlsx')
+bom_data = import_bom_data('E:/万合结构/1项目/WHJ82蒸发波导诊断系统/总BOM.xlsx')
+# bom_data = import_bom_data('D:/万合光电/WHJ82蒸发波导诊断系统/BOM.xlsx')
 if bom_data is not None:
     # # 将BOM数据前几行打印出来
     # print(bom_data.head())  
     print("BOM数据已成功导入")
 else:
     print("BOM数据导入失败")
+
+# 定义每列的格式
+bom_data = bom_data.astype({
+    '序号': int,
+    '阶层': str,
+    '零件名称': str,
+    '零件代号': str,
+    '文件名称': str,
+    '数量': int,
+    '材料': str,
+    '单重(kg)': float,
+    '总重(kg)': float,
+    '备注': str
+})
 
 
 
@@ -45,12 +59,7 @@ bom_data['父件的名称'] = ''
 bom_data['父件的代号'] = ''
 bom_data['父件的数量'] = ''
 
-
-
-# 将“阶层”列转换为字符串格式
-bom_data['阶层'] = bom_data['阶层'].astype(str)
-
-
+# 修正阶层为“n.1”的情况
 for i in range(1, len(bom_data)):
     current_value = bom_data.loc[i, '阶层']
     previous_value = bom_data.loc[i-1, '阶层']
@@ -110,7 +119,7 @@ bom_data['数量'] = bom_data['数量'].fillna(0)
 bom_data['父件的数量'] = bom_data['父件的数量'].fillna(0)
 
 # 将“数量_格式化”填充为“数量”×“父件的数量”的文字
-bom_data['数量_格式化'] = bom_data['数量'].astype(str) + '×' + bom_data['父件的数量'].astype(str)
+bom_data['数量_格式化'] = bom_data['数量'].astype(str) + '×' + bom_data['父件的数量'].astype(int).astype(str)
 
 # bom_data['总数量'] = ''
 bom_data['总数量'] = bom_data['数量'].astype(int) * bom_data['父件的数量'].astype(int) 
@@ -164,62 +173,88 @@ bom_data['分类'] = bom_data['分类'].astype(str)
 
 bom_data = bom_data.sort_values(['分类', '文件名称', '零件名称'], ascending=[True, True, True])
 
-# 删除无用列
+
 bom_data = bom_data.drop(columns=['序号','父件的名称', '父件的数量','分类'])
 
+# 重新设置索引
+bom_data = bom_data.reset_index(drop=True)
 
-# 选出重复的文件名称
-grouped = bom_data.groupby('文件名称').agg({
-    '总重(kg)': 'sum',
-    '总数量': 'sum'
-}).reset_index()
+bom_data['整数部分'] = (bom_data['文件名称'] != bom_data['文件名称'].shift()).cumsum()
+# 小数部分：在每个文件名称组内进行计数
+bom_data['小数部分'] = bom_data.groupby('文件名称').cumcount() + 1
 
-# 提取bom_data中每个文件名称对应的总数量
-original_columns = bom_data.groupby('文件名称').agg({
-    '总数量': 'first'
-}).reset_index()
+# 组合整数部分和小数部分
+bom_data['排序辅助列'] = bom_data['整数部分'].astype(str) + '.' + bom_data['小数部分'].astype(str)
 
-# original_columns = bom_data.groupby('文件名称')[['总数量']].agg('first').reset_index()
-# 将聚合后的DataFrame与原始总数量DataFrame合并
-merged = pd.merge(grouped, original_columns, on='文件名称', how='left', suffixes=('_aggregated', '_original'))
+# 删除辅助列
+bom_data = bom_data.drop(columns=['整数部分', '小数部分'])
 
-# 剔除那些总数量没有变化的行（即grouped中的总数量与原始总数量相同的行）
-filtered_grouped = merged[merged['总数量_aggregated'] != merged['总数量_original']]
-
-# 删除总数量_original列
-filtered_grouped = filtered_grouped.drop(columns=['总数量_original'])
-
-# 重命名总数量列
-filtered_grouped = filtered_grouped.rename(columns={'总数量_aggregated': '总数量'})
-
-# 重置索引
-filtered_grouped = filtered_grouped.reset_index(drop=True)
-
-# print(filtered_grouped)
+# 重置所有列的格式
+for col in bom_data.columns:
+    bom_data[col] = bom_data[col].astype(str)
 
 
+# 根据文件名称分组
+grouped = bom_data.groupby('文件名称')
+# 处理大于一行的组
+new_bom_data = pd.DataFrame()  # 创建一个新的 DataFrame 用于存储修改后的数据
+
+for name, group in grouped:
+    if len(group) > 1:
+        # 增加汇总行
+        total_quantity = group['总数量'].astype(int).sum().astype(str)
+        total_mass = group['总重(kg)'].astype(float).sum().astype(str)
+        new_row = group.iloc[0].copy()
+        new_row['总数量'] = total_quantity
+        new_row['重量(kg)'] = ''
+        new_row['总重(kg)'] = total_mass
+        # 汇总行的'排序辅助列'去掉.后面的部分
+        new_row['排序辅助列'] = new_row['排序辅助列'].split('.')[0]
+        # 将组内行的零件名称、零件代号、父件的代号、总数量、总重(kg)，然后设置为空
+
+        group.loc[:, ['零件名称', '零件代号', '父件代号', '总数量', '总重(kg)','备注']] = ''
+        
+        # 将修改后的组数据添加到新的 DataFrame 中
+        new_bom_data = pd.concat([new_bom_data, group], ignore_index=True)
+        
+        # 将新的行添加到结果 DataFrame 中
+        new_bom_data = pd.concat([new_bom_data, new_row.to_frame().T], ignore_index=True)
+    else:
+        # 如果组内只有一个元素，直接添加到新的 DataFrame 中
+        new_bom_data = pd.concat([new_bom_data, group], ignore_index=True)
+
+# 最后，new_bom_data 包含了所有修改后的数据
+bom_data = new_bom_data
+
+# 排序辅助列转换为浮点数
+bom_data['排序辅助列'] = bom_data['排序辅助列'].astype(float)
+
+# 重新按照排序辅助列、数量进行排序
+bom_data = bom_data.sort_values(['排序辅助列', '数量'], ascending=[True, False])
+bom_data.reset_index(drop=True, inplace=True)
+
+# 删除辅助列
+bom_data.drop('排序辅助列', axis=1, inplace=True)
+
+# 清空所有字符串为nan的单元格
+bom_data = bom_data.replace('nan', '')
+# 将第一行的数量列内容赋值给第一行的父件数量列
+bom_data.loc[0, '父件的数量'] = bom_data.loc[0, '数量']
+# 清空第一行的数量_格式化列
+bom_data.loc[0, '数量_格式化'] = ''
+
+# 删除阶层列、文件名称、数量列
+bom_data.drop('阶层', axis=1, inplace=True)
+bom_data.drop('文件名称', axis=1, inplace=True)
+bom_data.drop('数量', axis=1, inplace=True)
 
 
 
-
-
-
-# # 原始列顺序
-# original_columns = [
-#     '零件代号', '零件名称', '文件名称', '数量', '材料', '单重(kg)', '总重(kg)', '备注', '父件的代号', '总数量'
-# ]
-
-# # 目标列顺序
-# target_columns = [
-#     '零件代号', '零件名称', '文件名称', '父件的代号', '数量', '总数量', '单重(kg)', '总重(kg)', '材料', '备注'
-# ]
-
-# bom_data = bom_data[[col for col in target_columns if col in bom_data.columns]]
 
 if bom_data is not None:
     # 在同目录下生成新的excel
-    # bom_data.to_excel('E:/万合结构/1项目/WHJ82蒸发波导诊断系统/BOM数据修改.xlsx', index=False)
-    bom_data.to_excel('D:/万合光电/WHJ82蒸发波导诊断系统/BOM数据修改.xlsx', index=False)
+    bom_data.to_excel('E:/万合结构/1项目/WHJ82蒸发波导诊断系统/BOM数据修改.xlsx', index=False)
+    # bom_data.to_excel('D:/万合光电/WHJ82蒸发波导诊断系统/BOM数据修改.xlsx', index=False)
     print("BOM数据修改成功")
 else:
     print("BOM数据修改失败")
