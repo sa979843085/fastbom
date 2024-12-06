@@ -14,8 +14,8 @@ file_path = filedialog.askopenfilename(
 # 检查用户是否选择了文件
 if file_path:
     folder_path = os.path.dirname(file_path)
-    print(f"用户选择的文件夹路径: {folder_path}")
-    print(f"用户选择的文件路径: {file_path}")
+    # print(f"用户选择的文件夹路径: {folder_path}")
+    # print(f"用户选择的文件路径: {file_path}")
     # 在这里可以添加你的代码来处理选择的文件
 else:
     print("用户取消了文件选择")
@@ -37,12 +37,13 @@ def import_bom_data(file_path):
 bom_data = import_bom_data(file_path)
 # bom_data = import_bom_data('E:/万合结构/1项目/WHJ82蒸发波导诊断系统/总BOM.xlsx')
 # bom_data = import_bom_data('D:/万合光电/WHJ82蒸发波导诊断系统/BOM.xlsx')
-if bom_data is not None:
-    # # 将BOM数据前几行打印出来
-    # print(bom_data.head())  
-    print("BOM数据已成功导入")
-else:
+if bom_data is None:
     print("BOM数据导入失败")
+# else:
+#     # # 将BOM数据前几行打印出来
+#     print(bom_data.head())  
+#     print("BOM数据已成功导入")
+
 
 # 定义每列的格式
 bom_data = bom_data.astype({
@@ -319,6 +320,7 @@ if bom_data is not None:
     bom_data.to_excel(os.path.join(folder_path, 'BOM数据修改.xlsx'), index=False)
     # bom_data.to_excel('E:/万合结构/1项目/WHJ82蒸发波导诊断系统/BOM数据修改.xlsx', index=False)
     # bom_data.to_excel('D:/万合光电/WHJ82蒸发波导诊断系统/BOM数据修改.xlsx', index=False)
-    print("BOM数据修改成功")
+    # print("BOM数据修改成功")
+    print(f"修改后文件路径:  {folder_path}/BOM数据修改.xlsx")
 else:
     print("BOM数据修改失败")
