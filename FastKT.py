@@ -1,47 +1,79 @@
-from pyautocad import Autocad, APoint
-import openpyxl
+from FastMX import import_bom_data, select_file, fix_hierarchy_values, get_folder_path, update_parent_info
+import os
+import pandas as pd
+import numpy as np
+import tkinter as tk
+from tkinter import filedialog
+import re
 
-# 连接到AutoCAD
-acad = Autocad(create_if_not_exists=True)
 
-# 加载Excel文件
-file_path = r'G:\资料模板\bom.xlsx'
-wb = openpyxl.load_workbook(file_path)
-sheet = wb.active
 
-# 定义一个函数来创建块
-def create_block(acad, name, position, attributes):
-    # 使用正确的方法创建块
-    block = acad.doc.ModelSpace.AddBlock(name, position, 1, 1, 1)
-    for key, value in attributes.items():
-        block.SetAttributeValue(key, str(value))  # 确保属性值是字符串
-    return block
+#######################函数定义#######################
+# 定义处理函数，删除除了阶层、零件名称、零件代号、数量以外的所有列
+def process_bom_data(bom_data):
+    # 删除除了阶层、零件名称、零件代号、数量以外的所有列
+    bom_data = bom_data[['阶层', '零件名称', '零件代号', '数量']]
+    return bom_data
 
-# 遍历Excel中的行
-for row in sheet.iter_rows(min_row=2, values_only=True):
-    序号, 阶层, 零件代号, 零件名称, 规格, 数量, 材料, 单重, 总重, 备注 = row
-    # 将阶层转换为字符串
-    阶层 = str(阶层)
 
-    # 创建块的属性
-    attributes = {
-        'PartNumber': 零件代号,
-        'PartName': 零件名称,
-        'Specification': 规格,
-        'Quantity': 数量,
-        'Material': 材料,
-        'Weight': 单重
-    }
-    # 根据阶层确定位置
-    if 阶层.startswith('3'):
-        position = APoint(0, 100)  # 例如，阶层3的零件放在(0, 100)
-    elif 阶层.startswith('2'):
-        position = APoint(0, 200)  # 例如，阶层2的零件放在(0, 200)
-    else:
-        position = APoint(0, 0)  # 其他阶层默认位置
+########################处理部分########################
 
-    # 创建块
-    create_block(acad, 零件代号, position, attributes)
+file_path = select_file()
 
-# 保存AutoCAD文档
-acad.doc.Save()
+if not file_path:
+    print("未选择文件")
+    exit()
+
+# 导入BOM数据
+bom_data = import_bom_data(file_path)
+
+
+if bom_data is None:
+    print("导入BOM数据失败")
+    exit()
+    bom_data = bom_data.dropna(subset=['Part Number'])
+
+# 获取文件夹路径
+folder_path = get_folder_path(file_path)
+
+# 删除无用的BOM数据
+bom_data = process_bom_data(bom_data)
+
+# 修正阶层格式
+bom_data = fix_hierarchy_values(bom_data)
+
+
+# 增加父件信息列
+bom_data['父件的名称'] = ''
+bom_data['父件的代号'] = ''
+bom_data['父件的数量'] = ''
+
+# 更新父件信息
+bom_data = update_parent_info(bom_data)
+
+# 删除父件的名称和数量
+if '父件的名称' in bom_data.columns  and '父件的数量' in bom_data.columns:
+    bom_data = bom_data.drop(['父件的名称', '父件的数量'], axis=1)
+
+# 根据父件的代号进行排序
+bom_data = bom_data.sort_values(['父件的代号'], ascending=[True])
+
+
+# 将bom_data输出到folder_path下KT.xlsx
+bom_data.to_excel(os.path.join(folder_path, 'KT.xlsx'), index= True)
+
+# 输出路径
+output_path = os.path.join(folder_path, 'KT.xlsx')
+print(f'文件已保存到{output_path}')
+
+
+
+
+
+
+
+
+
+
+
+
