@@ -1,4 +1,4 @@
-from FastMX import import_bom_data, select_file, fix_hierarchy_values, get_folder_path, update_parent_info
+from FastMX import import_bom_data, select_file, fix_hierarchy_values, get_folder_path, update_parent_info, add_sorting_column
 import pandas as pd
 pd.set_option('future.no_silent_downcasting', True)
 import re
@@ -12,8 +12,13 @@ import os
 # 定义处理函数，删除除了阶层、零件名称、零件代号、数量以外的所有列
 def process_bom_data(bom_data):
     # 删除除了阶层、零件名称、零件代号、数量以外的所有列
-    bom_data = bom_data[['阶层', '零件名称', '零件代号', '数量']]
+    bom_data = bom_data[['阶层', '零件名称', '零件代号', '数量','备注']]
     return bom_data
+
+def delete_dl(bom_data):
+    if bom_data is not None :
+        bom_data = bom_data[bom_data['备注'] != '连接器自带电缆']
+    bom_data = bom_data.reset_index(drop=True)
 
 
 ########################处理部分########################
@@ -40,6 +45,11 @@ def main():
     # 删除无用的BOM数据
     bom_data = process_bom_data(bom_data)
 
+    # 删除连接器自带电缆
+    bom_data = delete_dl(bom_data)
+
+    # 阶层格式定义为字符串
+    bom_data['阶层'] = bom_data['阶层'].astype(str)
     # 修正阶层格式
     bom_data = fix_hierarchy_values(bom_data)
 
@@ -52,13 +62,16 @@ def main():
     # 更新父件信息
     bom_data = update_parent_info(bom_data)
 
-    # 删除父件的名称和数量
-    if '父件的名称' in bom_data.columns  and '父件的数量' in bom_data.columns:
-        bom_data = bom_data.drop(['父件的名称', '父件的数量'], axis=1)
+    bom_data = bom_data[bom_data['父件的代号'] != 'nan']# 删除没有父件代号的行
 
-    # 根据父件的代号进行排序
-    bom_data = bom_data.sort_values(['父件的代号'], ascending=[True])
+    bom_data = add_sorting_column(bom_data)# 添加排序列
+    bom_data['排序辅助列'] = bom_data['排序辅助列'].astype(float) # 转换为浮点数
+    bom_data = bom_data.sort_values(['父件的名称', '排序辅助列'], ascending=[True, False])
+    bom_data.reset_index(drop=True, inplace=True) # 重置索引
 
+    # 重新设置列顺序，同时清除不需要的列
+    new_order = ['零件代号', '零件名称', '数量', '阶层']
+    bom_data = bom_data[new_order]
 
     # 将bom_data输出到folder_path下KT.xlsx
     bom_data.to_excel(os.path.join(folder_path, 'KT.xlsx'), index= True)

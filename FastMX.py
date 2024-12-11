@@ -276,6 +276,7 @@ def main():
     bom_data[['总数量', '单重(kg)', '总重(kg)']] = bom_data[['总数量', '单重(kg)', '总重(kg)']].astype(str)
     #将0转换为空字符串
     bom_data = bom_data.replace('0', '')
+    
     # 定义一个函数，用于在每个分类前增加一行
     def add_category_row(group):
         # 获取分组的名称（即'分类'列的值）
@@ -292,6 +293,7 @@ def main():
 
     # 使用groupby并应用add_category_row函数
     bom_data = bom_data.groupby('分类', group_keys=False).apply(add_category_row, include_groups=False).reset_index(drop=True)
+    
 
     new_order = ['零件代号', '零件名称', '父件的代号', '数量_格式化', '总数量', '单重(kg)', '总重(kg)', '材料', '备注']
     bom_data = bom_data[new_order] # 重新整理列的顺序
