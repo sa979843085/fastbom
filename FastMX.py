@@ -5,8 +5,7 @@ import tkinter as tk
 from tkinter import filedialog
 import os
 
-root = tk.Tk()
-root.withdraw()
+
 
 ######################函数块######################
 
