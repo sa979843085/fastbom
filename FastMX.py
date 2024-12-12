@@ -71,30 +71,43 @@ def delete_gg_dl(bom_data):
     return bom_data
 
 
+def parse_number(s):
+    """将编号字符串解析为数字列表"""
+    return list(map(int, s.split('.')))
 
+def format_number(nums):
+    """将数字列表格式化为编号字符串"""
+    return '.'.join(map(str, nums))
 
-def fix_hierarchy_values(bom_data):
-    """
-    修正阶层为“n.1”的情况,在当前值的末尾补一个“0”。
-    """
-    if bom_data.empty or '阶层' not in bom_data.columns:
-        raise ValueError("数据为空或'阶层'列不存在")
-    
-    for i in range(1, len(bom_data)):
-        current_value = str(bom_data.loc[i, '阶层'])
-        previous_value = str(bom_data.loc[i-1, '阶层'])
+def fix_numbers(numbers):
+    """修复编号列表"""
+    fixed_numbers = []
+    last_nums = []
+
+    for num_str in numbers:
+        nums = parse_number(num_str)
         
-        # 检查当前值是否符合“n.1”的模式
-        if current_value.endswith('.1') and current_value.count('.') == 1:
-            # 去掉“.1”得到n
-            stripped_value = current_value[:-2]
-            
-            # 检查上一行的值是否是去掉“.1”后的整数n
-            if previous_value != stripped_value:
-                # 在当前值的末尾补一个“0”
-                bom_data.at[i, '阶层'] = f"{current_value}0"
-    
-    return bom_data
+        # 修复当前编号
+        if not last_nums:
+            last_nums = nums
+        else:
+            for i in range(len(nums)):
+                if i >= len(last_nums):
+                    break
+                if nums[i] < last_nums[i]:
+                    nums[i] = last_nums[i] + 1
+                    nums = nums[:i+1]
+                    break
+                elif nums[i] > last_nums[i]:
+                    break
+            else:
+                if len(nums) > len(last_nums):
+                    nums = last_nums + [1]
+        
+        fixed_numbers.append(format_number(nums))
+        last_nums = nums
+
+    return fixed_numbers
 
 
 def update_parent_info(bom_data):
@@ -243,7 +256,8 @@ def main():
     bom_data = format_data(bom_data)#格式化数据
     bom_data = delete_gg_dl(bom_data)#删除后续不需要的行和列
     bom_data = bom_data.reset_index(drop=True)#重置索引
-    bom_data = fix_hierarchy_values(bom_data)#修正阶层格式
+    # bom_data = fix_hierarchy_values(bom_data)#修正阶层格式
+    bom_data['阶层'] = fix_numbers(bom_data['阶层'])#修正阶层格式
 
     bom_data['父件的名称'] = ''
     bom_data['父件的代号'] = ''
@@ -303,8 +317,8 @@ def main():
 
     if bom_data is not None:
         # 在folder_path目录下生成新的excel
-        bom_data.to_excel(os.path.join(folder_path, 'BOM数据修改.xlsx'), index=False)
-        print(f"修改后文件路径:  {folder_path}/BOM数据修改.xlsx")
+        bom_data.to_excel(os.path.join(folder_path, '图样明细.xlsx'), index=False)
+        print(f"修改后文件路径:  {folder_path}/图样明细.xlsx")
     else:
         print("BOM数据修改失败")
 
