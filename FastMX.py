@@ -4,6 +4,7 @@ import re
 import tkinter as tk
 from tkinter import filedialog
 import os
+import openpyxl
 
 
 
@@ -27,9 +28,9 @@ def select_file():
 def import_bom_data(file_path):
     """导入BOM数据"""
     if file_path.endswith('.xlsx'):
-        bom_data = pd.read_excel(file_path)
+        bom_data = pd.read_excel(file_path, engine='openpyxl')
     elif file_path.endswith('.csv'):
-        bom_data = pd.read_csv(file_path)
+        bom_data = pd.read_csv(file_path, engine='openpyxl')
     else:
         print("不支持的文件格式")
         return None

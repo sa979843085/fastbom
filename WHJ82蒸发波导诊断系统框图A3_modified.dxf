@@ -9,7 +9,7 @@ AC1027
   9
 $ACADMAINTVER
  70
-   105
+105
   9
 $DWGCODEPAGE
   3
@@ -21,7 +21,7 @@ $LASTSAVEDBY
   9
 $REQUIREDVERSIONS
 160
-                 0
+0
   9
 $INSBASE
  10
@@ -61,23 +61,23 @@ $LIMMAX
   9
 $ORTHOMODE
  70
-     0
+0
   9
 $REGENMODE
  70
-     1
+1
   9
 $FILLMODE
  70
-     1
+1
   9
 $QTEXTMODE
  70
-     0
+0
   9
 $MIRRTEXT
  70
-     1
+1
   9
 $LTSCALE
  40
@@ -85,7 +85,7 @@ $LTSCALE
   9
 $ATTMODE
  70
-     1
+1
   9
 $TEXTSIZE
  40
@@ -109,7 +109,7 @@ ByLayer
   9
 $CECOLOR
  62
-     0
+0
   9
 $CELTSCALE
  40
@@ -117,7 +117,7 @@ $CELTSCALE
   9
 $DISPSILH
  70
-     0
+0
   9
 $DIMSCALE
  40
@@ -169,35 +169,35 @@ $DIMTSZ
   9
 $DIMTOL
  70
-     0
+0
   9
 $DIMLIM
  70
-     0
+0
   9
 $DIMTIH
  70
-     0
+0
   9
 $DIMTOH
  70
-     0
+0
   9
 $DIMSE1
  70
-     0
+0
   9
 $DIMSE2
  70
-     0
+0
   9
 $DIMTAD
  70
-     1
+1
   9
 $DIMZIN
  70
-     8
+8
   9
 $DIMBLK
   1
@@ -205,11 +205,11 @@ CAXARROW
   9
 $DIMASO
  70
-     1
+1
   9
 $DIMSHO
  70
-     1
+1
   9
 $DIMPOST
   1
@@ -221,11 +221,11 @@ $DIMAPOST
   9
 $DIMALT
  70
-     0
+0
   9
 $DIMALTD
  70
-     2
+2
   9
 $DIMALTF
  40
@@ -237,7 +237,7 @@ $DIMLFAC
   9
 $DIMTOFL
  70
-     1
+1
   9
 $DIMTVP
  40
@@ -245,15 +245,15 @@ $DIMTVP
   9
 $DIMTIX
  70
-     0
+0
   9
 $DIMSOXD
  70
-     0
+0
   9
 $DIMSAH
  70
-     0
+0
   9
 $DIMBLK1
   1
@@ -269,15 +269,15 @@ GB_尺寸
   9
 $DIMCLRD
  70
-     0
+0
   9
 $DIMCLRE
  70
-     0
+0
   9
 $DIMCLRT
  70
-     0
+0
   9
 $DIMTFAC
  40
@@ -289,51 +289,51 @@ $DIMGAP
   9
 $DIMJUST
  70
-     0
+0
   9
 $DIMSD1
  70
-     0
+0
   9
 $DIMSD2
  70
-     0
+0
   9
 $DIMTOLJ
  70
-     1
+1
   9
 $DIMTZIN
  70
-     8
+8
   9
 $DIMALTZ
  70
-     0
+0
   9
 $DIMALTTZ
  70
-     0
+0
   9
 $DIMUPT
  70
-     0
+0
   9
 $DIMDEC
  70
-     2
+2
   9
 $DIMTDEC
  70
-     3
+3
   9
 $DIMALTU
  70
-     2
+2
   9
 $DIMALTTD
  70
-     3
+3
   9
 $DIMTXSTY
   7
@@ -341,11 +341,11 @@ $DIMTXSTY
   9
 $DIMAUNIT
  70
-     0
+0
   9
 $DIMADEC
  70
-     2
+2
   9
 $DIMALTRND
  40
@@ -353,19 +353,19 @@ $DIMALTRND
   9
 $DIMAZIN
  70
-     2
+2
   9
 $DIMDSEP
  70
-    46
+46
   9
 $DIMATFIT
  70
-     3
+3
   9
 $DIMFRAC
  70
-     2
+2
   9
 $DIMLDRBLK
   1
@@ -373,19 +373,19 @@ $DIMLDRBLK
   9
 $DIMLUNIT
  70
-     2
+2
   9
 $DIMLWD
  70
-    -2
+-2
   9
 $DIMLWE
  70
-    -2
+-2
   9
 $DIMTMOVE
  70
-     2
+2
   9
 $DIMFXL
  40
@@ -393,7 +393,7 @@ $DIMFXL
   9
 $DIMFXLON
  70
-     0
+0
   9
 $DIMJOGANG
  40
@@ -401,15 +401,15 @@ $DIMJOGANG
   9
 $DIMTFILL
  70
-     0
+0
   9
 $DIMTFILLCLR
  70
-     0
+0
   9
 $DIMARCSYM
  70
-     1
+1
   9
 $DIMLTYPE
   6
@@ -425,15 +425,15 @@ Continuous
   9
 $DIMTXTDIRECTION
  70
-     0
+0
   9
 $LUNITS
  70
-     2
+2
   9
 $LUPREC
  70
-     4
+4
   9
 $SKETCHINC
  40
@@ -445,11 +445,11 @@ $FILLETRAD
   9
 $AUNITS
  70
-     0
+0
   9
 $AUPREC
  70
-     0
+0
   9
 $MENU
   1
@@ -469,7 +469,7 @@ $THICKNESS
   9
 $LIMCHECK
  70
-     0
+0
   9
 $CHAMFERA
  40
@@ -489,35 +489,35 @@ $CHAMFERD
   9
 $SKPOLY
  70
-     0
+0
   9
 $TDCREATE
  40
-2460662.774968195
+2460662.771736111
   9
 $TDUCREATE
  40
-2460662.441634862
+2460657.355025764
   9
 $TDUPDATE
  40
-2460662.774968403
+2460662.771736111
   9
 $TDUUPDATE
  40
-2460662.44163507
+2460657.355025891
   9
 $TDINDWG
  40
-0.0000000116
+1.16e-08
   9
 $TDUSRTIMER
  40
-0.0000000116
+1.16e-08
   9
 $USRTIMER
  70
-     1
+1
   9
 $ANGBASE
  50
@@ -525,11 +525,11 @@ $ANGBASE
   9
 $ANGDIR
  70
-     0
+0
   9
 $PDMODE
  70
-     0
+0
   9
 $PDSIZE
  40
@@ -541,39 +541,39 @@ $PLINEWID
   9
 $SPLFRAME
  70
-     0
+0
   9
 $SPLINETYPE
  70
-     6
+6
   9
 $SPLINESEGS
  70
-     8
+8
   9
 $HANDSEED
   5
-195
+1A6
   9
 $SURFTAB1
  70
-     6
+6
   9
 $SURFTAB2
  70
-     6
+6
   9
 $SURFTYPE
  70
-     6
+6
   9
 $SURFU
  70
-     6
+6
   9
 $SURFV
  70
-     6
+6
   9
 $UCSBASE
   2
@@ -613,7 +613,7 @@ $UCSORTHOREF
   9
 $UCSORTHOVIEW
  70
-     0
+0
   9
 $UCSORGTOP
  10
@@ -701,7 +701,7 @@ $PUCSORTHOREF
   9
 $PUCSORTHOVIEW
  70
-     0
+0
   9
 $PUCSORGTOP
  10
@@ -753,23 +753,23 @@ $PUCSORGBACK
   9
 $USERI1
  70
-     0
+0
   9
 $USERI2
  70
-     0
+0
   9
 $USERI3
  70
-     0
+0
   9
 $USERI4
  70
-     0
+0
   9
 $USERI5
  70
-     0
+0
   9
 $USERR1
  40
@@ -793,23 +793,23 @@ $USERR5
   9
 $WORLDVIEW
  70
-     1
+1
   9
 $SHADEDGE
  70
-     3
+3
   9
 $SHADEDIF
  70
-    70
+70
   9
 $TILEMODE
  70
-     1
+1
   9
 $MAXACTVP
  70
-    64
+64
   9
 $PINSBASE
  10
@@ -821,23 +821,23 @@ $PINSBASE
   9
 $PLIMCHECK
  70
-     0
+0
   9
 $PEXTMIN
  10
-1.000000000000000E+20
+1e+20
  20
-1.000000000000000E+20
+1e+20
  30
-1.000000000000000E+20
+1e+20
   9
 $PEXTMAX
  10
--1.000000000000000E+20
+-1e+20
  20
--1.000000000000000E+20
+-1e+20
  30
--1.000000000000000E+20
+-1e+20
   9
 $PLIMMIN
  10
@@ -853,23 +853,23 @@ $PLIMMAX
   9
 $UNITMODE
  70
-     0
+0
   9
 $VISRETAIN
  70
-     1
+1
   9
 $PLINEGEN
  70
-     0
+0
   9
 $PSLTSCALE
  70
-     1
+1
   9
 $TREEDEPTH
  70
-  3020
+3020
   9
 $CMLSTYLE
   2
@@ -877,7 +877,7 @@ Standard
   9
 $CMLJUST
  70
-     0
+0
   9
 $CMLSCALE
  40
@@ -885,31 +885,31 @@ $CMLSCALE
   9
 $PROXYGRAPHICS
  70
-     1
+1
   9
 $MEASUREMENT
  70
-     1
+1
   9
 $CELWEIGHT
 370
-    -1
+-1
   9
 $ENDCAPS
 280
-     0
+0
   9
 $JOINSTYLE
 280
-     0
+0
   9
 $LWDISPLAY
 290
-     1
+1
   9
 $INSUNITS
  70
-     4
+4
   9
 $HYPERLINKBASE
   1
@@ -921,27 +921,27 @@ $STYLESHEET
   9
 $XEDIT
 290
-     1
+1
   9
 $CEPSNTYPE
 380
-     0
+0
   9
 $PSTYLEMODE
 290
-     1
+1
   9
 $FINGERPRINTGUID
   2
-{9a53b577-19f2-4a85-ab49-52a8bd460d91}
+{49a16fee-2a4e-4e78-9986-8852ad2f3532}
   9
 $VERSIONGUID
   2
-{FAEB1C32-E019-11D5-929B-00C0DF256EC4}
+{025F0746-8778-4728-BD09-6F0F6BF203BD}
   9
 $EXTNAMES
 290
-     1
+1
   9
 $PSVPSCALE
  40
@@ -949,47 +949,47 @@ $PSVPSCALE
   9
 $OLESTARTUP
 290
-     0
+0
   9
 $SORTENTS
 280
-   127
+127
   9
 $INDEXCTL
 280
-     0
+0
   9
 $HIDETEXT
 280
-     1
+1
   9
 $XCLIPFRAME
 280
-     2
+2
   9
 $HALOGAP
 280
-     0
+0
   9
 $OBSCOLOR
  70
-   257
+257
   9
 $OBSLTYPE
 280
-     0
+0
   9
 $INTERSECTIONDISPLAY
 280
-     0
+0
   9
 $INTERSECTIONCOLOR
  70
-   257
+257
   9
 $DIMASSOC
 280
-     2
+2
   9
 $PROJECTNAME
   1
@@ -997,7 +997,7 @@ $PROJECTNAME
   9
 $CAMERADISPLAY
 290
-     0
+0
   9
 $LENSLENGTH
  40
@@ -1045,11 +1045,11 @@ $LOFTMAG2
   9
 $LOFTPARAM
  70
-     7
+7
   9
 $LOFTNORMALS
 280
-     1
+1
   9
 $LATITUDE
  40
@@ -1065,15 +1065,15 @@ $NORTHDIRECTION
   9
 $TIMEZONE
  70
- -8000
+-8000
   9
 $LIGHTGLYPHDISPLAY
 280
-     1
+1
   9
 $TILEMODELIGHTSYNCH
 280
-     1
+1
   9
 $CMATERIAL
 347
@@ -1081,31 +1081,31 @@ $CMATERIAL
   9
 $SOLIDHIST
 280
-     0
+0
   9
 $SHOWHIST
 280
-     1
+1
   9
 $DWFFRAME
 280
-     2
+2
   9
 $DGNFRAME
 280
-     2
+2
   9
 $REALWORLDSCALE
 290
-     1
+1
   9
 $INTERFERECOLOR
  62
-   256
+256
   9
 $CSHADOW
 280
-     0
+0
   9
 $SHADOWPLANELOCATION
  40
@@ -1125,13 +1125,13 @@ AcDbDictionaryWithDefault
   3
 ObjectDBX Classes
  90
-        0
+0
  91
-        3
+3
 280
-     0
+0
 281
-     0
+0
   0
 CLASS
   1
@@ -1141,13 +1141,13 @@ AcDbVisualStyle
   3
 ObjectDBX Classes
  90
-     4095
+4095
  91
-        3
+3
 280
-     0
+0
 281
-     0
+0
   0
 CLASS
   1
@@ -1157,13 +1157,13 @@ AcDbMaterial
   3
 ObjectDBX Classes
  90
-     1153
+1153
  91
-        3
+3
 280
-     0
+0
 281
-     0
+0
   0
 CLASS
   1
@@ -1173,13 +1173,13 @@ AcDbScale
   3
 ObjectDBX Classes
  90
-     1153
+1153
  91
-        3
+3
 280
-     0
+0
 281
-     0
+0
   0
 CLASS
   1
@@ -1189,13 +1189,13 @@ AcDbTableStyle
   3
 ObjectDBX Classes
  90
-     4095
+4095
  91
-        3
+3
 280
-     0
+0
 281
-     0
+0
   0
 CLASS
   1
@@ -1205,13 +1205,13 @@ AcDbMLeaderStyle
   3
 ACDB_MLEADERSTYLE_CLASS
  90
-     4095
+4095
  91
-        3
+3
 280
-     0
+0
 281
-     0
+0
   0
 CLASS
   1
@@ -1221,13 +1221,13 @@ AcDbSun
   3
 SCENEOE
  90
-     1153
+1153
  91
-        3
+3
 280
-     0
+0
 281
-     0
+0
   0
 CLASS
   1
@@ -1237,13 +1237,13 @@ AcDbWipeoutVariables
   3
 WipeOut|AutoCAD Express Tool|expresstools@autodesk.com
  90
-        0
+0
  91
-        3
+3
 280
-     0
+0
 281
-     0
+0
   0
 CLASS
   1
@@ -1253,13 +1253,13 @@ AcDbDictionaryVar
   3
 ObjectDBX Classes
  90
-        0
+0
  91
-        3
+3
 280
-     0
+0
 281
-     0
+0
   0
 CLASS
   1
@@ -1269,13 +1269,109 @@ AcDbCellStyleMap
   3
 ObjectDBX Classes
  90
-     1152
+1152
  91
-        3
+3
 280
-     0
+0
 281
-     0
+0
+  0
+CLASS
+  1
+MENTALRAYRENDERSETTINGS
+  2
+AcDbMentalRayRenderSettings
+  3
+SCENEOE
+ 90
+1024
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+ACDBDETAILVIEWSTYLE
+  2
+AcDbDetailViewStyle
+  3
+ObjectDBX Classes
+ 90
+1025
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+ACDBSECTIONVIEWSTYLE
+  2
+AcDbSectionViewStyle
+  3
+ObjectDBX Classes
+ 90
+1025
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+RASTERVARIABLES
+  2
+AcDbRasterVariables
+  3
+ISM
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+ACDBPLACEHOLDER
+  2
+AcDbPlaceHolder
+  3
+ObjectDBX Classes
+ 90
+0
+ 91
+0
+280
+0
+281
+0
+  0
+CLASS
+  1
+LAYOUT
+  2
+AcDbLayout
+  3
+ObjectDBX Classes
+ 90
+0
+ 91
+0
+280
+0
+281
+0
   0
 ENDSEC
   0
@@ -1293,7 +1389,7 @@ VPORT
 100
 AcDbSymbolTable
  70
-     1
+1
   0
 VPORT
   5
@@ -1307,7 +1403,7 @@ AcDbViewportTableRecord
   2
 *Active
  70
-     0
+0
  10
 0.0
  20
@@ -1359,25 +1455,25 @@ AcDbViewportTableRecord
  51
 0.0
  71
-     0
+0
  72
-   100
+100
  73
-     1
+1
  74
-     3
+3
  75
-     0
+0
  76
-     0
+0
  77
-     0
+0
  78
-     0
+0
 281
-     0
+0
  65
-     1
+1
 110
 0.0
 120
@@ -1397,27 +1493,25 @@ AcDbViewportTableRecord
 132
 0.0
  79
-     0
+0
 146
 0.0
+ 60
+3
+ 61
+5
 348
 2F
- 60
-     3
- 61
-     5
 292
-     1
+1
 282
-     1
+1
 141
 0.0
 142
 0.0
  63
-   250
-361
-5D
+250
   0
 ENDTAB
   0
@@ -1431,7 +1525,7 @@ LTYPE
 100
 AcDbSymbolTable
  70
-     4
+6
   0
 LTYPE
   5
@@ -1445,13 +1539,13 @@ AcDbLinetypeTableRecord
   2
 ByBlock
  70
-     0
+0
   3
 
  72
-    65
+65
  73
-     0
+0
  40
 0.0
   0
@@ -1467,13 +1561,13 @@ AcDbLinetypeTableRecord
   2
 ByLayer
  70
-     0
+0
   3
 
  72
-    65
+65
  73
-     0
+0
  40
 0.0
   0
@@ -1489,13 +1583,13 @@ AcDbLinetypeTableRecord
   2
 Continuous
  70
-     0
+0
   3
 Solid line
  72
-    65
+65
  73
-     0
+0
  40
 0.0
   0
@@ -1511,23 +1605,23 @@ AcDbLinetypeTableRecord
   2
 虚线
  70
-     0
+0
   3
 虚线: __ __ __ __ __ __ __ __ __ __ __ __ __
  72
-    65
+65
  73
-     2
+2
  40
 2.0
  49
 1.0
  74
-     0
+0
  49
 -1.0
  74
-     0
+0
   0
 LTYPE
   5
@@ -1541,31 +1635,31 @@ AcDbLinetypeTableRecord
   2
 点画线
  70
-     0
+0
   3
 点画线: ____ . ____ . ____ . ____ . ____ . ____
  72
-    65
+65
  73
-     4
+4
  40
 18.0
  49
 12.0
  74
-     0
+0
  49
 -2.0
  74
-     0
+0
  49
 2.0
  74
-     0
+0
  49
 -2.0
  74
-     0
+0
   0
 LTYPE
   5
@@ -1579,39 +1673,39 @@ AcDbLinetypeTableRecord
   2
 双点画线
  70
-     0
+0
   3
 双点画线: ____ . . ____ . . ____ . . ____ . . ____ 
  72
-    65
+65
  73
-     6
+6
  40
 22.0
  49
 12.0
  74
-     0
+0
  49
 -2.0
  74
-     0
+0
  49
 2.0
  74
-     0
+0
  49
 -2.0
  74
-     0
+0
  49
 2.0
  74
-     0
+0
  49
 -2.0
  74
-     0
+0
   0
 ENDTAB
   0
@@ -1625,7 +1719,7 @@ LAYER
 100
 AcDbSymbolTable
  70
-    12
+13
   0
 LAYER
   5
@@ -1639,13 +1733,13 @@ AcDbLayerTableRecord
   2
 0
  70
-     0
+0
  62
-     7
+7
   6
 Continuous
 370
-    35
+35
 390
 F
 347
@@ -1671,13 +1765,13 @@ AcDbLayerTableRecord
   2
 中心线层
  70
-     0
+0
  62
-     1
+1
   6
 点画线
 370
-    18
+18
 390
 F
 347
@@ -1703,13 +1797,13 @@ AcDbLayerTableRecord
   2
 虚线层
  70
-     0
+0
  62
-     6
+6
   6
 虚线
 370
-    18
+18
 390
 F
 347
@@ -1735,13 +1829,13 @@ AcDbLayerTableRecord
   2
 细实线层
  70
-     0
+0
  62
-     7
+7
   6
 Continuous
 370
-    18
+18
 390
 F
 347
@@ -1767,13 +1861,13 @@ AcDbLayerTableRecord
   2
 粗实线层
  70
-     0
+0
  62
-     7
+7
   6
 Continuous
 370
-    35
+35
 390
 F
 347
@@ -1799,13 +1893,13 @@ AcDbLayerTableRecord
   2
 尺寸线层
  70
-     0
+0
  62
-     3
+3
   6
 Continuous
 370
-    18
+18
 390
 F
 347
@@ -1831,13 +1925,13 @@ AcDbLayerTableRecord
   2
 剖面线层
  70
-     0
+0
  62
-     4
+4
   6
 Continuous
 370
-    18
+18
 390
 F
 347
@@ -1863,13 +1957,13 @@ AcDbLayerTableRecord
   2
 隐藏层
  70
-     0
+0
  62
-    -7
+-7
   6
 Continuous
 370
-    18
+18
 390
 F
 347
@@ -1895,13 +1989,13 @@ AcDbLayerTableRecord
   2
 文字
  70
-     0
+0
  62
-     4
+4
   6
 Continuous
 370
-    18
+18
 390
 F
 347
@@ -1927,13 +2021,13 @@ AcDbLayerTableRecord
   2
 标注
  70
-     0
+0
  62
-     6
+6
   6
 Continuous
 370
-    18
+18
 390
 F
 347
@@ -1959,13 +2053,13 @@ AcDbLayerTableRecord
   2
 粗实线
  70
-     0
+0
  62
-     5
+5
   6
 Continuous
 370
-    30
+30
 390
 F
 347
@@ -1991,13 +2085,13 @@ AcDbLayerTableRecord
   2
 细实线
  70
-     0
+0
  62
-     7
+7
   6
 Continuous
 370
-    18
+18
 390
 F
 347
@@ -2011,6 +2105,32 @@ AcAecLayerStandard
 1000
 
   0
+LAYER
+  5
+19F
+330
+2
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
+Defpoints
+ 70
+0
+ 62
+7
+  6
+Continuous
+290
+0
+370
+-3
+390
+F
+347
+46
+  0
 ENDTAB
   0
 TABLE
@@ -2023,7 +2143,7 @@ STYLE
 100
 AcDbSymbolTable
  70
-     4
+4
   0
 STYLE
   5
@@ -2037,7 +2157,7 @@ AcDbTextStyleTableRecord
   2
 Standard
  70
-     0
+0
  40
 0.0
  41
@@ -2045,7 +2165,7 @@ Standard
  50
 0.0
  71
-     0
+0
  42
 3.5
   3
@@ -2063,7 +2183,7 @@ ACAD
 1000
 宋体
 1071
-    34306
+34306
   0
 STYLE
   5
@@ -2077,7 +2197,7 @@ AcDbTextStyleTableRecord
   2
 标准
  70
-     0
+0
  40
 0.0
  41
@@ -2085,7 +2205,7 @@ AcDbTextStyleTableRecord
  50
 0.0
  71
-     0
+0
  42
 2.5
   3
@@ -2103,7 +2223,7 @@ ACAD
 1000
 宋体
 1071
-    34306
+34306
   0
 STYLE
   5
@@ -2117,7 +2237,7 @@ AcDbTextStyleTableRecord
   2
 机械
  70
-     0
+0
  40
 0.0
  41
@@ -2125,7 +2245,7 @@ AcDbTextStyleTableRecord
  50
 0.0
  71
-     0
+0
  42
 2.5
   3
@@ -2143,7 +2263,7 @@ ACAD
 1000
 宋体
 1071
-    34306
+34306
   0
 STYLE
   5
@@ -2157,7 +2277,7 @@ AcDbTextStyleTableRecord
   2
 雷
  70
-     0
+0
  40
 0.0
  41
@@ -2165,7 +2285,7 @@ AcDbTextStyleTableRecord
  50
 0.0
  71
-     0
+0
  42
 2.5
   3
@@ -2183,7 +2303,7 @@ ACAD
 1000
 仿宋
 1071
-    34353
+34353
   0
 ENDTAB
   0
@@ -2197,7 +2317,7 @@ VIEW
 100
 AcDbSymbolTable
  70
-     0
+0
   0
 ENDTAB
   0
@@ -2211,7 +2331,7 @@ UCS
 100
 AcDbSymbolTable
  70
-     0
+0
   0
 ENDTAB
   0
@@ -2225,7 +2345,7 @@ APPID
 100
 AcDbSymbolTable
  70
-   123
+125
   0
 APPID
   5
@@ -2239,7 +2359,7 @@ AcDbRegAppTableRecord
   2
 ACAD
  70
-     0
+0
   0
 APPID
   5
@@ -2253,7 +2373,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_PAPERORDER
  70
-     0
+0
   0
 APPID
   5
@@ -2267,7 +2387,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_ROUGH
  70
-     0
+0
   0
 APPID
   5
@@ -2281,7 +2401,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_ROUGH_STD
  70
-     0
+0
   0
 APPID
   5
@@ -2295,7 +2415,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_FORMATED_TXT
  70
-     0
+0
   0
 APPID
   5
@@ -2309,7 +2429,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DATUM
  70
-     0
+0
   0
 APPID
   5
@@ -2323,7 +2443,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_WELD
  70
-     0
+0
   0
 APPID
   5
@@ -2337,7 +2457,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_GEOTOL
  70
-     0
+0
   0
 APPID
   5
@@ -2351,7 +2471,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_CUTS
  70
-     0
+0
   0
 APPID
   5
@@ -2365,7 +2485,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMHALF
  70
-     0
+0
   0
 APPID
   5
@@ -2379,7 +2499,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMRAY
  70
-     0
+0
   0
 APPID
   5
@@ -2393,7 +2513,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMARCLEN
  70
-     0
+0
   0
 APPID
   5
@@ -2407,7 +2527,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMTAPER
  70
-     0
+0
   0
 APPID
   5
@@ -2421,7 +2541,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMPITCH
  70
-     0
+0
   0
 APPID
   5
@@ -2435,7 +2555,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMCOORD
  70
-     0
+0
   0
 APPID
   5
@@ -2449,7 +2569,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMORIALIGN
  70
-     0
+0
   0
 APPID
   5
@@ -2463,7 +2583,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMHOLEPOS
  70
-     0
+0
   0
 APPID
   5
@@ -2477,7 +2597,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMCRDLEADER
  70
-     0
+0
   0
 APPID
   5
@@ -2491,7 +2611,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMCHAMFER
  70
-     0
+0
   0
 APPID
   5
@@ -2505,7 +2625,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMCENTERHOLE
  70
-     0
+0
   0
 APPID
   5
@@ -2519,7 +2639,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMLEADER
  70
-     0
+0
   0
 APPID
   5
@@ -2533,7 +2653,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMCRDLIST
  70
-     0
+0
   0
 APPID
   5
@@ -2547,7 +2667,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_PAPERSCALE
  70
-     0
+0
   0
 APPID
   5
@@ -2561,7 +2681,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_FILEVERSION
  70
-     0
+0
   0
 APPID
   5
@@ -2575,7 +2695,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_PRODUCTVERSION
  70
-     0
+0
   0
 APPID
   5
@@ -2589,7 +2709,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DATATABLE
  70
-     0
+0
   0
 APPID
   5
@@ -2603,7 +2723,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_PAPERINFO
  70
-     0
+0
   0
 APPID
   5
@@ -2617,7 +2737,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_PAPERFRAME
  70
-     0
+0
   0
 APPID
   5
@@ -2631,7 +2751,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_PAPERFRAME_V2
  70
-     0
+0
   0
 APPID
   5
@@ -2645,7 +2765,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_PAPERTITLE
  70
-     0
+0
   0
 APPID
   5
@@ -2659,7 +2779,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_PAPERTITLE_V2
  70
-     0
+0
   0
 APPID
   5
@@ -2673,7 +2793,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_PAPERPAREATABLE
  70
-     0
+0
   0
 APPID
   5
@@ -2687,7 +2807,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_PARTNO
  70
-     0
+0
   0
 APPID
   5
@@ -2701,7 +2821,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_PARTNO_V2
  70
-     0
+0
   0
 APPID
   5
@@ -2715,7 +2835,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_BOMTABLE
  70
-     0
+0
   0
 APPID
   5
@@ -2729,7 +2849,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_BOMTABLE_V2
  70
-     0
+0
   0
 APPID
   5
@@ -2743,7 +2863,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_BLKREF_EXTATT
  70
-     0
+0
   0
 APPID
   5
@@ -2757,7 +2877,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DBVIEWDATA
  70
-     0
+0
   0
 APPID
   5
@@ -2771,7 +2891,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMSYMTOL
  70
-     0
+0
   0
 APPID
   5
@@ -2785,7 +2905,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMASSEMTOL
  70
-     0
+0
   0
 APPID
   5
@@ -2799,7 +2919,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMANGLETOL
  70
-     0
+0
   0
 APPID
   5
@@ -2813,7 +2933,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DRAFTDATA
  70
-     0
+0
   0
 APPID
   5
@@ -2827,7 +2947,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMORIGIN
  70
-     0
+0
   0
 APPID
   5
@@ -2841,7 +2961,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_ENLARGE_EDGE
  70
-     0
+0
   0
 APPID
   5
@@ -2855,7 +2975,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMSTY_T_VPOS
  70
-     0
+0
   0
 APPID
   5
@@ -2869,7 +2989,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMSTY_AT_VPOS
  70
-     0
+0
   0
 APPID
   5
@@ -2883,7 +3003,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_BLKHIDE
  70
-     0
+0
   0
 APPID
   5
@@ -2897,7 +3017,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMARROWREVERSE
  70
-     0
+0
   0
 APPID
   5
@@ -2911,7 +3031,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_TXTSTYLE
  70
-     0
+0
   0
 APPID
   5
@@ -2925,7 +3045,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_ATTRIBUTE_2PT
  70
-     0
+0
   0
 APPID
   5
@@ -2939,7 +3059,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_ATTDEF_2PT
  70
-     0
+0
   0
 APPID
   5
@@ -2953,7 +3073,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMBIGARC
  70
-     0
+0
   0
 APPID
   5
@@ -2967,7 +3087,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_ISNEB09R3
  70
-     0
+0
   0
 APPID
   5
@@ -2981,7 +3101,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_WIPEOUT_B_HIDE
  70
-     0
+0
   0
 APPID
   5
@@ -2995,7 +3115,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_BLKREF_SYMBOL
  70
-     0
+0
   0
 APPID
   5
@@ -3009,7 +3129,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_ENL_COMMENTS
  70
-     0
+0
   0
 APPID
   5
@@ -3023,7 +3143,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_ENL_TSCALE
  70
-     0
+0
   0
 APPID
   5
@@ -3037,7 +3157,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_TXTSCALE
  70
-     0
+0
   0
 APPID
   5
@@ -3051,7 +3171,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_KEEPLTSEG_ZOOM
  70
-     0
+0
   0
 APPID
   5
@@ -3065,7 +3185,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_SPECLIB
  70
-     0
+0
   0
 APPID
   5
@@ -3079,7 +3199,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DATUM_2011R2
  70
-     0
+0
   0
 APPID
   5
@@ -3093,7 +3213,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_ROUGH_2011R2
  70
-     0
+0
   0
 APPID
   5
@@ -3107,7 +3227,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_GEOTOL_2011R2
  70
-     0
+0
   0
 APPID
   5
@@ -3121,7 +3241,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DMOVMAP_2011R3
  70
-     0
+0
   0
 APPID
   5
@@ -3135,7 +3255,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DDTSTY_2011R3
  70
-     0
+0
   0
 APPID
   5
@@ -3149,7 +3269,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_SDTSTY_2011R3
  70
-     0
+0
   0
 APPID
   5
@@ -3163,7 +3283,7 @@ AcDbRegAppTableRecord
   2
 CDRAFT_TXTROT_2011R3
  70
-     0
+0
   0
 APPID
   5
@@ -3177,7 +3297,7 @@ AcDbRegAppTableRecord
   2
 CDRAFT_TOLOUT_2011R3
  70
-     0
+0
   0
 APPID
   5
@@ -3191,7 +3311,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMARCLENSTYLE
  70
-     0
+0
   0
 APPID
   5
@@ -3205,7 +3325,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DMOVMAP_2013
  70
-     0
+0
   0
 APPID
   5
@@ -3219,7 +3339,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DS_DLLNTYPE
  70
-     0
+0
   0
 APPID
   5
@@ -3233,7 +3353,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DS_LBLLNTYPE
  70
-     0
+0
   0
 APPID
   5
@@ -3247,7 +3367,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DS_RBLLNTYPE
  70
-     0
+0
   0
 APPID
   5
@@ -3261,7 +3381,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DS_ISFILLDFM
  70
-     0
+0
   0
 APPID
   5
@@ -3275,7 +3395,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DS_DISPZTOOL
  70
-     0
+0
   0
 APPID
   5
@@ -3289,7 +3409,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DS_SYMCOLOR
  70
-     0
+0
   0
 APPID
   5
@@ -3303,7 +3423,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_HATCH_SCALE_ANGLE
  70
-     0
+0
   0
 APPID
   5
@@ -3317,7 +3437,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_GEOTOL_ISFROMDWG
  70
-     0
+0
   0
 APPID
   5
@@ -3331,7 +3451,7 @@ AcDbRegAppTableRecord
   2
 CxDragDiaDimLnStyle
  70
-     0
+0
   0
 APPID
   5
@@ -3345,7 +3465,7 @@ AcDbRegAppTableRecord
   2
 CxDragRadDimLnStyle
  70
-     0
+0
   0
 APPID
   5
@@ -3359,7 +3479,7 @@ AcDbRegAppTableRecord
   2
 CX_DbAnnotate_SimDimOriTxt
  70
-     0
+0
   0
 APPID
   5
@@ -3373,7 +3493,7 @@ AcDbRegAppTableRecord
   2
 CX_DbAnnotate_TxtLocPara
  70
-     0
+0
   0
 APPID
   5
@@ -3387,7 +3507,7 @@ AcDbRegAppTableRecord
   2
 CX_DbAnnotate_DragTxtLoc
  70
-     0
+0
   0
 APPID
   5
@@ -3401,7 +3521,7 @@ AcDbRegAppTableRecord
   2
 UserSetTxtLoc
  70
-     0
+0
   0
 APPID
   5
@@ -3415,7 +3535,7 @@ AcDbRegAppTableRecord
   2
 UserSetTxtLocType
  70
-     0
+0
   0
 APPID
   5
@@ -3429,7 +3549,7 @@ AcDbRegAppTableRecord
   2
 UserSetTxtLocPt
  70
-     0
+0
   0
 APPID
   5
@@ -3443,7 +3563,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_IMAGE_BINARY
  70
-     0
+0
   0
 APPID
   5
@@ -3457,7 +3577,7 @@ AcDbRegAppTableRecord
   2
 DimTxtFrmStyle_2015R1
  70
-     0
+0
   0
 APPID
   5
@@ -3471,7 +3591,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_GEOTOL_ISSHX
  70
-     0
+0
   0
 APPID
   5
@@ -3485,7 +3605,7 @@ AcDbRegAppTableRecord
   2
 CAXA_SUPGRAPHICDIM
  70
-     0
+0
   0
 APPID
   5
@@ -3499,7 +3619,7 @@ AcDbRegAppTableRecord
   2
 CAXA_GRAPHICARCLEN_HASLN
  70
-     0
+0
   0
 APPID
   5
@@ -3513,7 +3633,7 @@ AcDbRegAppTableRecord
   2
 CAXA_GRAPHICDIM_OUT
  70
-     0
+0
   0
 APPID
   5
@@ -3527,7 +3647,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DATUM_LEADLNBKMODE
  70
-     0
+0
   0
 APPID
   5
@@ -3541,7 +3661,7 @@ AcDbRegAppTableRecord
   2
 CX_DbDim_CrdDimLineAndArrow
  70
-     0
+0
   0
 APPID
   5
@@ -3555,7 +3675,7 @@ AcDbRegAppTableRecord
   2
 CX_DbDim_TaperAngleStd
  70
-     0
+0
   0
 APPID
   5
@@ -3569,7 +3689,7 @@ AcDbRegAppTableRecord
   2
 CX_DbAttribDef_OptionalVal
  70
-     0
+0
   0
 APPID
   5
@@ -3583,7 +3703,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_LEADER_MLEADERLINE
  70
-     0
+0
   0
 APPID
   5
@@ -3597,7 +3717,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_WELD_MLEADERLINE
  70
-     0
+0
   0
 APPID
   5
@@ -3611,7 +3731,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_GEOTOL_MLEADERLINE
  70
-     0
+0
   0
 APPID
   5
@@ -3625,7 +3745,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_ROUGH_MLEADERLINE
  70
-     0
+0
   0
 APPID
   5
@@ -3639,7 +3759,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DATUM_MLEADERLINE
  70
-     0
+0
   0
 APPID
   5
@@ -3653,7 +3773,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_ROUGH_STDSPTDATA
  70
-     0
+0
   0
 APPID
   5
@@ -3667,7 +3787,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_CUTS_LABLEDATA
  70
-     0
+0
   0
 APPID
   5
@@ -3681,7 +3801,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_LEADER_DISPREFLINE
  70
-     0
+0
   0
 APPID
   5
@@ -3695,7 +3815,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_TAPER_TEXTTYPE
  70
-     0
+0
   0
 APPID
   5
@@ -3709,7 +3829,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_TAPER_RATEFORMAT
  70
-     0
+0
   0
 APPID
   5
@@ -3723,7 +3843,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_TAPER_RATESEPAR
  70
-     0
+0
   0
 APPID
   5
@@ -3737,7 +3857,7 @@ AcDbRegAppTableRecord
   2
 CX_DIMSTYLE_TXTFRAME
  70
-     0
+0
   0
 APPID
   5
@@ -3751,7 +3871,7 @@ AcDbRegAppTableRecord
   2
 CX_DBDIM_TXTFRAME
  70
-     0
+0
   0
 APPID
   5
@@ -3765,7 +3885,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_TABLEENT
  70
-     0
+0
   0
 APPID
   5
@@ -3779,7 +3899,7 @@ AcDbRegAppTableRecord
   2
 CDRAFT_DIM_STD_REV_NAME
  70
-     0
+0
   0
 APPID
   5
@@ -3793,7 +3913,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_BOM_STDSPTDATA
  70
-     0
+0
   0
 APPID
   5
@@ -3807,7 +3927,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_PARTNO_STDSPTDATA
  70
-     0
+0
   0
 APPID
   5
@@ -3821,7 +3941,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DATUM_LOCPTEDIT
  70
-     0
+0
   0
 APPID
   5
@@ -3835,7 +3955,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_INFO_WMFLAG
  70
-     0
+0
   0
 APPID
   5
@@ -3849,7 +3969,7 @@ AcDbRegAppTableRecord
   2
 CX_DbDim_CrdDimTypeAndData
  70
-     0
+0
   0
 APPID
   5
@@ -3863,7 +3983,7 @@ AcDbRegAppTableRecord
   2
 CX_DbDim_DimOriginBiText
  70
-     0
+0
   0
 APPID
   5
@@ -3877,7 +3997,7 @@ AcDbRegAppTableRecord
   2
 CX_DbDim_DimCrdLeaderPts
  70
-     0
+0
   0
 APPID
   5
@@ -3891,7 +4011,7 @@ AcDbRegAppTableRecord
   2
 CAXA_SOLID_FLAG
  70
-     0
+0
   0
 APPID
   5
@@ -3905,7 +4025,7 @@ AcDbRegAppTableRecord
   2
 ElevationPaperScale
  70
-     0
+0
   0
 APPID
   5
@@ -3919,7 +4039,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_CURRENT
  70
-     0
+0
   0
 APPID
   5
@@ -3933,7 +4053,7 @@ AcDbRegAppTableRecord
   2
 CAXA_DRAFT_DIMSCALEOVERRIDE
  70
-     0
+0
   0
 APPID
   5
@@ -3947,7 +4067,35 @@ AcDbRegAppTableRecord
   2
 AcAecLayerStandard
  70
-     0
+0
+  0
+APPID
+  5
+1A2
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+HATCHBACKGROUNDCOLOR
+ 70
+0
+  0
+APPID
+  5
+1A3
+330
+9
+100
+AcDbSymbolTableRecord
+100
+AcDbRegAppTableRecord
+  2
+EZDXF
+ 70
+0
   0
 ENDTAB
   0
@@ -3961,7 +4109,7 @@ A
 100
 AcDbSymbolTable
  70
-     4
+5
 100
 AcDbDimStyleTable
   0
@@ -3977,7 +4125,9 @@ AcDbDimStyleTableRecord
   2
 标准
  70
-     0
+0
+ 40
+1.0
  41
 4.0
  42
@@ -3986,48 +4136,116 @@ AcDbDimStyleTableRecord
 10.0
  44
 2.0
+ 45
+0.0
  46
 8.0
- 90
-        1
- 73
-     0
- 74
-     0
- 77
-     1
- 78
-     8
- 79
-     2
+ 47
+0.0
+ 48
+0.0
+ 49
+2.5
 140
 3.5
 141
 0.0
+142
+0.0
 143
 1.0
+144
+1.0
+145
+0.0
 146
 0.7071067811865475
 147
 0.625
+148
+0.0
+ 69
+0
+ 70
+0
+ 71
+0
+ 72
+0
+ 73
+0
+ 74
+0
+ 75
+0
+ 76
+0
+ 77
+1
+ 78
+8
+ 79
+2
+ 90
+1
+170
+0
+171
+3
 172
-     1
+1
+173
+0
+174
+0
+175
+0
+176
+0
+177
+0
 178
-     0
+0
 179
-     2
+2
 271
-     2
+2
 272
-     3
+3
+273
+2
 274
-     3
+3
+275
+0
 276
-     2
+2
+277
+2
+278
+44
 279
-     2
+2
+280
+0
+281
+0
+282
+0
+283
+0
 284
-     8
+8
+285
+0
+286
+0
+288
+0
+289
+3
+290
+0
 340
 E8
 342
@@ -4038,22 +4256,26 @@ EC
 16
 347
 16
+371
+-2
+372
+-2
 1001
 CAXA_DRAFT_DIMSTY_AT_VPOS
 1070
-     1
+1
 1001
 CAXA_DRAFT_SDTSTY_2011R3
 1070
-     0
+0
 1001
 CAXA_DRAFT_DS_ISFILLDFM
 1070
-     1
+1
 1001
 CAXA_DRAFT_DS_DISPZTOOL
 1070
-     0
+0
 1001
 CAXA_DRAFT_DS_SYMCOLOR
 1071
@@ -4061,13 +4283,13 @@ CAXA_DRAFT_DS_SYMCOLOR
 1001
 DimTxtFrmStyle_2015R1
 1070
-     3
+3
 1001
 CX_DIMSTYLE_TXTFRAME
 1070
-     0
+0
 1070
-     0
+0
   0
 DIMSTYLE
 105
@@ -4081,7 +4303,9 @@ AcDbDimStyleTableRecord
   2
 GB_尺寸
  70
-     0
+0
+ 40
+1.0
  41
 4.0
  42
@@ -4090,48 +4314,116 @@ GB_尺寸
 10.0
  44
 2.0
+ 45
+0.0
  46
 8.0
- 90
-        1
- 73
-     0
- 74
-     0
- 77
-     1
- 78
-     8
- 79
-     2
+ 47
+0.0
+ 48
+0.0
+ 49
+2.5
 140
 3.5
 141
 0.0
+142
+0.0
 143
 1.0
+144
+1.0
+145
+0.0
 146
 0.7071067811865475
 147
 0.625
+148
+0.0
+ 69
+0
+ 70
+0
+ 71
+0
+ 72
+0
+ 73
+0
+ 74
+0
+ 75
+0
+ 76
+0
+ 77
+1
+ 78
+8
+ 79
+2
+ 90
+1
+170
+0
+171
+3
 172
-     1
+1
+173
+0
+174
+0
+175
+0
+176
+0
+177
+0
 178
-     0
+0
 179
-     2
+2
 271
-     2
+2
 272
-     3
+3
+273
+2
 274
-     3
+3
+275
+0
 276
-     2
+2
+277
+2
+278
+44
 279
-     2
+2
+280
+0
+281
+0
+282
+0
+283
+0
 284
-     8
+8
+285
+0
+286
+0
+288
+0
+289
+3
+290
+0
 340
 E8
 342
@@ -4142,22 +4434,26 @@ EC
 16
 347
 16
+371
+-2
+372
+-2
 1001
 CAXA_DRAFT_DIMSTY_AT_VPOS
 1070
-     1
+1
 1001
 CAXA_DRAFT_SDTSTY_2011R3
 1070
-     0
+0
 1001
 CAXA_DRAFT_DS_ISFILLDFM
 1070
-     1
+1
 1001
 CAXA_DRAFT_DS_DISPZTOOL
 1070
-     0
+0
 1001
 CAXA_DRAFT_DS_SYMCOLOR
 1071
@@ -4165,13 +4461,13 @@ CAXA_DRAFT_DS_SYMCOLOR
 1001
 DimTxtFrmStyle_2015R1
 1070
-     3
+3
 1001
 CX_DIMSTYLE_TXTFRAME
 1070
-     0
+0
 1070
-     0
+0
   0
 DIMSTYLE
 105
@@ -4185,7 +4481,9 @@ AcDbDimStyleTableRecord
   2
 GB_引出说明(1984)
  70
-     0
+0
+ 40
+1.0
  41
 4.0
  42
@@ -4194,48 +4492,116 @@ GB_引出说明(1984)
 10.0
  44
 2.0
+ 45
+0.0
  46
 8.0
- 90
-        1
- 73
-     0
- 74
-     0
- 77
-     1
- 78
-     8
- 79
-     2
+ 47
+0.0
+ 48
+0.0
+ 49
+2.5
 140
 3.5
 141
 0.0
+142
+0.0
 143
 1.0
+144
+1.0
+145
+0.0
 146
 0.7071067811865475
 147
 0.625
+148
+0.0
+ 69
+0
+ 70
+0
+ 71
+0
+ 72
+0
+ 73
+0
+ 74
+0
+ 75
+0
+ 76
+0
+ 77
+1
+ 78
+8
+ 79
+2
+ 90
+1
+170
+0
+171
+3
 172
-     1
+1
+173
+0
+174
+0
+175
+0
+176
+0
+177
+0
 178
-     0
+0
 179
-     2
+2
 271
-     2
+2
 272
-     3
+3
+273
+2
 274
-     3
+3
+275
+0
 276
-     2
+2
+277
+2
+278
+44
 279
-     2
+2
+280
+0
+281
+0
+282
+0
+283
+0
 284
-     8
+8
+285
+0
+286
+0
+288
+0
+289
+3
+290
+0
 340
 E8
 342
@@ -4246,22 +4612,26 @@ EC
 16
 347
 16
+371
+-2
+372
+-2
 1001
 CAXA_DRAFT_DIMSTY_AT_VPOS
 1070
-     1
+1
 1001
 CAXA_DRAFT_SDTSTY_2011R3
 1070
-     0
+0
 1001
 CAXA_DRAFT_DS_ISFILLDFM
 1070
-     1
+1
 1001
 CAXA_DRAFT_DS_DISPZTOOL
 1070
-     0
+0
 1001
 CAXA_DRAFT_DS_SYMCOLOR
 1071
@@ -4269,13 +4639,13 @@ CAXA_DRAFT_DS_SYMCOLOR
 1001
 DimTxtFrmStyle_2015R1
 1070
-     3
+3
 1001
 CX_DIMSTYLE_TXTFRAME
 1070
-     0
+0
 1070
-     0
+0
   0
 DIMSTYLE
 105
@@ -4289,7 +4659,9 @@ AcDbDimStyleTableRecord
   2
 GB_锥度(2003)
  70
-     0
+0
+ 40
+1.0
  41
 4.0
  42
@@ -4298,48 +4670,116 @@ GB_锥度(2003)
 10.0
  44
 2.0
+ 45
+0.0
  46
 8.0
- 90
-        1
- 73
-     0
- 74
-     0
- 77
-     1
- 78
-     8
- 79
-     2
+ 47
+0.0
+ 48
+0.0
+ 49
+2.5
 140
 3.5
 141
 0.0
+142
+0.0
 143
 1.0
+144
+1.0
+145
+0.0
 146
 0.7071067811865475
 147
 0.625
+148
+0.0
+ 69
+0
+ 70
+0
+ 71
+0
+ 72
+0
+ 73
+0
+ 74
+0
+ 75
+0
+ 76
+0
+ 77
+1
+ 78
+8
+ 79
+2
+ 90
+1
+170
+0
+171
+3
 172
-     1
+1
+173
+0
+174
+0
+175
+0
+176
+0
+177
+0
 178
-     0
+0
 179
-     2
+2
 271
-     2
+2
 272
-     3
+3
+273
+2
 274
-     3
+3
+275
+0
 276
-     2
+2
+277
+2
+278
+44
 279
-     2
+2
+280
+0
+281
+0
+282
+0
+283
+0
 284
-     8
+8
+285
+0
+286
+0
+288
+0
+289
+3
+290
+0
 340
 E8
 342
@@ -4350,22 +4790,26 @@ EC
 16
 347
 16
+371
+-2
+372
+-2
 1001
 CAXA_DRAFT_DIMSTY_AT_VPOS
 1070
-     1
+1
 1001
 CAXA_DRAFT_SDTSTY_2011R3
 1070
-     0
+0
 1001
 CAXA_DRAFT_DS_ISFILLDFM
 1070
-     1
+1
 1001
 CAXA_DRAFT_DS_DISPZTOOL
 1070
-     0
+0
 1001
 CAXA_DRAFT_DS_SYMCOLOR
 1071
@@ -4373,13 +4817,149 @@ CAXA_DRAFT_DS_SYMCOLOR
 1001
 DimTxtFrmStyle_2015R1
 1070
-     3
+3
 1001
 CX_DIMSTYLE_TXTFRAME
 1070
-     0
+0
 1070
-     0
+0
+  0
+DIMSTYLE
+105
+1A0
+330
+A
+100
+AcDbSymbolTableRecord
+100
+AcDbDimStyleTableRecord
+  2
+Standard
+ 70
+0
+ 40
+1.0
+ 41
+2.5
+ 42
+0.625
+ 43
+3.75
+ 44
+1.25
+ 45
+0.0
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+2.5
+140
+2.5
+141
+2.5
+142
+0.0
+143
+0.03937007874
+144
+1.0
+145
+0.0
+146
+1.0
+147
+0.625
+148
+0.0
+ 69
+0
+ 70
+0
+ 71
+0
+ 72
+0
+ 73
+0
+ 74
+0
+ 75
+0
+ 76
+0
+ 77
+1
+ 78
+8
+ 79
+3
+170
+0
+171
+3
+172
+1
+173
+0
+174
+0
+175
+0
+176
+0
+177
+0
+178
+0
+179
+2
+271
+2
+272
+2
+273
+2
+274
+3
+275
+0
+276
+0
+277
+2
+278
+44
+279
+0
+280
+0
+281
+0
+282
+0
+283
+0
+284
+8
+285
+0
+286
+0
+288
+0
+289
+3
+290
+0
+371
+-2
+372
+-2
   0
 ENDTAB
   0
@@ -4393,7 +4973,7 @@ BLOCK_RECORD
 100
 AcDbSymbolTable
  70
-     2
+4
   0
 BLOCK_RECORD
   5
@@ -4409,11 +4989,11 @@ AcDbBlockTableRecord
 340
 22
  70
-     0
+0
 280
-     1
+1
 281
-     0
+0
 1001
 CAXA_DRAFT_PAPERSCALE
 1041
@@ -4425,19 +5005,19 @@ CAXA_DRAFT_PAPERINFO
 1041
 297.0
 1071
-        0
+0
 1070
-     1
+1
 1070
-     1
+1
 1070
-     1
+1
 1070
-     0
+0
 1001
 CAXA_DRAFT_KEEPLTSEG_ZOOM
 1070
-     0
+0
   0
 BLOCK_RECORD
   5
@@ -4453,11 +5033,35 @@ AcDbBlockTableRecord
 340
 1E
  70
-     0
+0
 280
-     1
+1
 281
-     0
+0
+1001
+CAXA_DRAFT_PAPERSCALE
+1041
+1.0
+1001
+CAXA_DRAFT_PAPERINFO
+1041
+0.0
+1041
+0.0
+1071
+0
+1070
+1
+1070
+0
+1070
+1
+1070
+0
+1001
+CAXA_DRAFT_KEEPLTSEG_ZOOM
+1070
+1
   0
 BLOCK_RECORD
   5
@@ -4473,11 +5077,11 @@ _CAXARROW
 340
 0
  70
-     0
+0
 280
-     1
+1
 281
-     0
+0
   0
 BLOCK_RECORD
   5
@@ -4492,18 +5096,12 @@ AcDbBlockTableRecord
 $CAXA_FRAME_13B17AC1$
 340
 0
-102
-{BLKREFS
-331
-12A
-102
-}
  70
-     0
+0
 280
-     1
+1
 281
-     0
+0
   0
 ENDTAB
   0
@@ -4527,7 +5125,7 @@ AcDbBlockBegin
   2
 *Model_Space
  70
-     0
+0
  10
 0.0
  20
@@ -4559,7 +5157,7 @@ BLOCK
 100
 AcDbEntity
  67
-     1
+1
   8
 0
 100
@@ -4567,7 +5165,7 @@ AcDbBlockBegin
   2
 *Paper_Space
  70
-     0
+0
  10
 0.0
  20
@@ -4587,7 +5185,7 @@ ENDBLK
 100
 AcDbEntity
  67
-     1
+1
   8
 0
 100
@@ -4607,7 +5205,7 @@ AcDbBlockBegin
   2
 _CAXARROW
  70
-     0
+0
  10
 0.0
  20
@@ -4629,7 +5227,7 @@ AcDbEntity
   8
 0
  62
-     0
+0
 100
 AcDbHatch
  10
@@ -4647,17 +5245,17 @@ AcDbHatch
   2
 SOLID
  70
-     1
+1
  71
-     0
+0
  91
-        1
+1
  92
-        0
+0
  93
-        3
+3
  72
-     1
+1
  10
 0.0
  20
@@ -4667,7 +5265,7 @@ SOLID
  21
 0.125
  72
-     1
+1
  10
 -1.0
  20
@@ -4677,7 +5275,7 @@ SOLID
  21
 -0.125
  72
-     1
+1
  10
 -1.0
  20
@@ -4687,13 +5285,13 @@ SOLID
  21
 0.0
  97
-        0
+0
  75
-     0
+0
  76
-     1
+1
  98
-        1
+1
  10
 0.0
  20
@@ -4725,7 +5323,7 @@ AcDbBlockBegin
   2
 $CAXA_FRAME_13B17AC1$
  70
-     0
+0
  10
 0.0
  20
@@ -4939,7 +5537,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -4955,17 +5553,11 @@ AcDbMText
  46
 3.888268156424601
  71
-     5
- 72
-     1
+5
   1
 比例
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -4975,7 +5567,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 3.888268156424601
 1000
@@ -4991,7 +5583,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -5007,17 +5599,11 @@ AcDbMText
  46
 3.770949720670387
  71
-     5
- 72
-     1
+5
   1
 重量
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -5027,7 +5613,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 3.770949720670387
 1000
@@ -5043,7 +5629,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -5059,17 +5645,11 @@ AcDbMText
  46
 3.955307262569818
  71
-     5
- 72
-     1
+5
   1
 阶段标记   
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -5079,7 +5659,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 3.955307262569818
 1000
@@ -5095,7 +5675,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -5111,17 +5691,11 @@ AcDbMText
  46
 3.938547486033485
  71
-     5
- 72
-     1
+5
   1
 第   1   张
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -5131,7 +5705,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 3.938547486033485
 1000
@@ -5147,7 +5721,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -5163,17 +5737,11 @@ AcDbMText
  46
 3.905027932960934
  71
-     5
- 72
-     1
+5
   1
 共   1   张
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -5183,7 +5751,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 3.905027932960934
 1000
@@ -5199,7 +5767,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -5215,17 +5783,11 @@ AcDbMText
  46
 7.843575418994305
  71
-     5
- 72
-     1
+5
   1
 批 准
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -5235,7 +5797,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 7.843575418994305
 1000
@@ -5251,7 +5813,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -5267,17 +5829,11 @@ AcDbMText
  46
 7.307262569832346
  71
-     5
- 72
-     1
+5
   1
 工 艺
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -5287,7 +5843,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 7.307262569832346
 1000
@@ -5303,7 +5859,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -5319,17 +5875,11 @@ AcDbMText
  46
 7.910614525139636
  71
-     5
- 72
-     1
+5
   1
 标 审
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -5339,7 +5889,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 7.910614525139636
 1000
@@ -5355,7 +5905,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -5371,17 +5921,11 @@ AcDbMText
  46
 7.64245810055877
  71
-     5
- 72
-     1
+5
   1
 设 计
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -5391,7 +5935,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 7.64245810055877
 1000
@@ -5407,7 +5951,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -5423,17 +5967,11 @@ AcDbMText
  46
 7.910614525139636
  71
-     5
- 72
-     1
+5
   1
 校 核
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -5443,7 +5981,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 7.910614525139636
 1000
@@ -5459,7 +5997,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -5475,17 +6013,11 @@ AcDbMText
  46
 3.888268156424601
  71
-     5
- 72
-     1
+5
   1
 日  期
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -5495,7 +6027,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 3.888268156424601
 1000
@@ -5511,7 +6043,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -5527,17 +6059,11 @@ AcDbMText
  46
 3.97206703910615
  71
-     5
- 72
-     1
+5
   1
 签  字
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -5547,7 +6073,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 3.97206703910615
 1000
@@ -5563,7 +6089,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -5579,17 +6105,11 @@ AcDbMText
  46
 7.910614525139636
  71
-     5
- 72
-     1
+5
   1
 更改文件号
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -5599,7 +6119,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 7.910614525139636
 1000
@@ -5615,7 +6135,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -5631,17 +6151,11 @@ AcDbMText
  46
 7.910614525139636
  71
-     5
- 72
-     1
+5
   1
 标 记
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -5651,7 +6165,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 7.910614525139636
 1000
@@ -5667,7 +6181,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -5683,17 +6197,11 @@ AcDbMText
  46
 7.910614525139636
  71
-     5
- 72
-     1
+5
   1
 处 数
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -5703,7 +6211,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 7.910614525139636
 1000
@@ -5719,7 +6227,7 @@ AcDbEntity
   8
 粗实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -5745,7 +6253,7 @@ AcDbEntity
   8
 粗实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -5771,7 +6279,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -5797,7 +6305,7 @@ AcDbEntity
   8
 粗实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -5823,7 +6331,7 @@ AcDbEntity
   8
 粗实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -5849,7 +6357,7 @@ AcDbEntity
   8
 粗实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -5875,7 +6383,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -5901,7 +6409,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -5927,7 +6435,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -5953,7 +6461,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -5979,7 +6487,7 @@ AcDbEntity
   8
 粗实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6005,7 +6513,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6031,7 +6539,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6057,7 +6565,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6083,7 +6591,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6109,7 +6617,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6135,7 +6643,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6161,7 +6669,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6187,7 +6695,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6213,7 +6721,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6239,7 +6747,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6265,7 +6773,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6291,7 +6799,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6317,7 +6825,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6343,7 +6851,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6369,7 +6877,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6395,7 +6903,7 @@ AcDbEntity
   8
 细实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6421,7 +6929,7 @@ AcDbEntity
   8
 粗实线
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6447,7 +6955,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -6463,17 +6971,11 @@ AcDbMText
  46
 3.955307262569818
  71
-     5
- 72
-     1
+5
   1
 {\W0.7;\T0.9;万合（洛阳）光电技术有限公司}
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -6483,7 +6985,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 3.955307262569818
 1000
@@ -6499,7 +7001,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -6515,17 +7017,11 @@ AcDbMText
  46
 2.966480446927335
  71
-     5
- 72
-     1
+5
   1
 S
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -6535,7 +7031,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 2.966480446927335
 1000
@@ -6551,7 +7047,7 @@ AcDbEntity
   8
 0
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6577,7 +7073,7 @@ AcDbEntity
   8
 0
  62
-     0
+0
 100
 AcDbLine
  10
@@ -6643,7 +7139,7 @@ A3A-A-Normal(CHS)
 1001
 CAXA_DRAFT_PAPERFRAME
 1071
-        2
+2
 1041
 200.0000000000001
 1041
@@ -6653,11 +7149,11 @@ CAXA_DRAFT_PAPERFRAME
 1000
 A3A-A-Normal(CHS)
 1070
-     1
+1
 1001
 CAXA_DRAFT_BLKHIDE
 1070
-     0
+0
   0
 LINE
   5
@@ -6669,7 +7165,7 @@ AcDbEntity
   8
 标注
  62
-     0
+0
  48
 0.300000011920929
 100
@@ -6697,7 +7193,7 @@ AcDbEntity
   8
 标注
  62
-     0
+0
  48
 0.300000011920929
 100
@@ -6725,7 +7221,7 @@ AcDbEntity
   8
 标注
  62
-     0
+0
  48
 0.300000011920929
 100
@@ -6753,7 +7249,7 @@ AcDbEntity
   8
 标注
  62
-     0
+0
  48
 0.300000011920929
 100
@@ -6781,7 +7277,7 @@ AcDbEntity
   8
 标注
  62
-     0
+0
  48
 0.300000011920929
 100
@@ -6809,7 +7305,7 @@ AcDbEntity
   8
 标注
  62
-     0
+0
  48
 0.300000011920929
 100
@@ -6837,7 +7333,7 @@ AcDbEntity
   8
 标注
  62
-     0
+0
  48
 0.300000011920929
 100
@@ -6865,7 +7361,7 @@ AcDbEntity
   8
 标注
  62
-     0
+0
  48
 0.300000011920929
 100
@@ -6893,7 +7389,7 @@ AcDbEntity
   8
 标注
  62
-     0
+0
  48
 0.300000011920929
 100
@@ -6921,7 +7417,7 @@ AcDbEntity
   8
 标注
  62
-     0
+0
  48
 0.300000011920929
 100
@@ -6949,7 +7445,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -6965,17 +7461,11 @@ AcDbMText
  46
 2.636871508379954
  71
-     1
- 72
-     1
+1
   1
 组件
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -6985,7 +7475,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 2.636871508379954
 1000
@@ -7001,7 +7491,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -7017,17 +7507,11 @@ AcDbMText
  46
 2.659217877094989
  71
-     1
- 72
-     1
+1
   1
 组件
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -7037,7 +7521,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 2.659217877094989
 1000
@@ -7053,7 +7537,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -7069,17 +7553,11 @@ AcDbMText
  46
 1.988826815642369
  71
-     1
- 72
-     1
+1
   1
 WH
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -7089,7 +7567,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 1.988826815642369
 1000
@@ -7105,7 +7583,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -7121,17 +7599,11 @@ AcDbMText
  46
 1.988826815642369
  71
-     1
- 72
-     1
+1
   1
 WH
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -7141,7 +7613,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 1.988826815642369
 1000
@@ -7157,7 +7629,7 @@ AcDbEntity
   8
 标注
  62
-     0
+0
  48
 0.300000011920929
 100
@@ -7185,7 +7657,7 @@ AcDbEntity
   8
 标注
  62
-     0
+0
  48
 0.300000011920929
 100
@@ -7213,7 +7685,7 @@ AcDbEntity
   8
 标注
  62
-     0
+0
  48
 0.300000011920929
 100
@@ -7241,7 +7713,7 @@ AcDbEntity
   8
 标注
  62
-     0
+0
  48
 0.300000011920929
 100
@@ -7269,7 +7741,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -7285,17 +7757,11 @@ AcDbMText
  46
 1.988826815642369
  71
-     1
- 72
-     1
+1
   1
 1
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -7305,7 +7771,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 1.988826815642369
 1000
@@ -7321,7 +7787,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -7337,17 +7803,11 @@ AcDbMText
  46
 1.988826815642369
  71
-     1
- 72
-     1
+1
   1
 1
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -7357,7 +7817,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 1.988826815642369
 1000
@@ -7373,7 +7833,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -7389,17 +7849,11 @@ AcDbMText
  46
 5.318435754189949
  71
-     1
- 72
-     1
+1
   1
 {\W0.8;****框图}
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -7409,7 +7863,7 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 5.318435754189949
 1000
@@ -7425,7 +7879,7 @@ AcDbEntity
   8
 文字
  62
-     0
+0
 100
 AcDbMText
  10
@@ -7441,17 +7895,11 @@ AcDbMText
  46
 5.318435754189977
  71
-     1
- 72
-     1
+1
   1
 WH*******KT
   7
 雷
- 73
-     1
- 44
-1.0
 1001
 CAXA_DRAFT_TXTSCALE
 1041
@@ -7461,11 +7909,165 @@ ACAD
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_BEGIN
 1070
-    46
+46
 1040
 5.318435754189977
 1000
 ACAD_MTEXT_DEFINED_HEIGHT_END
+  0
+VIEWPORT
+  5
+182
+330
+1B
+100
+AcDbEntity
+ 67
+1
+  8
+0
+100
+AcDbViewport
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+300.0
+ 41
+220.0
+ 68
+1
+ 69
+1
+ 12
+0.0
+ 22
+0.0
+ 13
+0.0
+ 23
+0.0
+ 14
+10.0
+ 24
+10.0
+ 15
+10.0
+ 25
+10.0
+ 16
+0.0
+ 26
+0.0
+ 36
+1.0
+ 17
+0.0
+ 27
+0.0
+ 37
+0.0
+ 42
+50.0
+ 43
+0.0
+ 44
+0.0
+ 45
+1.0
+ 50
+0.0
+ 51
+0.0
+ 72
+100
+ 90
+557152
+  1
+
+281
+0
+ 71
+1
+ 74
+0
+110
+0.0
+120
+0.0
+130
+0.0
+111
+1.0
+121
+0.0
+131
+0.0
+112
+0.0
+122
+1.0
+132
+0.0
+ 79
+0
+146
+0.0
+170
+0
+ 61
+5
+348
+2F
+282
+1
+141
+0.0
+142
+0.0
+ 63
+256
+  0
+LWPOLYLINE
+  5
+1A1
+330
+1B
+100
+AcDbEntity
+ 67
+1
+  8
+LWPOLYLINE
+100
+AcDbPolyline
+ 90
+5
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 10
+10.0
+ 20
+0.0
+ 10
+10.0
+ 20
+10.0
+ 10
+0.0
+ 20
+10.0
+ 10
+0.0
+ 20
+0.0
   0
 ENDSEC
   0
@@ -7481,11 +8083,11 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 ACAD_DETAILVIEWSTYLE
 350
-191
+199
   3
 ACAD_GROUP
 350
@@ -7521,7 +8123,7 @@ ACAD_SCALELIST
   3
 ACAD_SECTIONVIEWSTYLE
 350
-192
+19A
   3
 ACAD_TABLESTYLE
 350
@@ -7533,15 +8135,15 @@ ACAD_VISUALSTYLE
   3
 ACAD_WIPEOUT_VARS
 350
-17B
+183
   3
 ACDB_RECOMPOSE_DATA
 350
-18E
+196
   3
 AcDbVariableDictionary
 350
-188
+190
   3
 CAXA_DRAFT_BOMSTYLE
 350
@@ -7559,6 +8161,10 @@ CAXA_DRAFT_DATATABLE*Model_Space
 350
 123
   3
+CAXA_DRAFT_DATATABLE*Paper_Space
+350
+17B
+  3
 CAXA_DRAFT_DATUMSTYLE
 350
 109
@@ -7569,23 +8175,23 @@ CAXA_DRAFT_DATUMSTYLEOVERRIDE
   3
 CAXA_DRAFT_DIMSTYLE_ANGTXTVPOS
 350
-17C
+184
   3
 CAXA_DRAFT_DIMSTYLE_ISDISPZEROTOL
 350
-180
+188
   3
 CAXA_DRAFT_DIMSTYLE_ISFILLDFM
 350
-17E
+186
   3
 CAXA_DRAFT_DIMSTYLE_SYMBOLCOLOR
 350
-182
+18A
   3
 CAXA_DRAFT_DRAFTDATA
 350
-184
+18C
   3
 CAXA_DRAFT_FILEVERSION
 350
@@ -7621,7 +8227,7 @@ CAXA_DRAFT_ROUGHSTYLEOVERRIDE
   3
 CAXA_DRAFT_STDDATA
 350
-186
+18E
   3
 CAXA_DRAFT_WELDSTYLE
 350
@@ -7630,6 +8236,14 @@ F6
 CAXA_DRAFT_WELDSTYLEOVERRIDE
 350
 FA
+  3
+ACAD_COLOR
+350
+19E
+  3
+EZDXF_META
+350
+1A4
   0
 SUN
   5
@@ -7639,33 +8253,33 @@ SUN
 100
 AcDbSun
  90
-        1
+1
 290
-     0
+0
  63
-     7
+7
 421
- 16777215
+16777215
  40
 1.0
 291
-     1
+1
  91
-  2455826
+2455826
  92
- 54000000
+54000000
 292
-     0
+0
  70
-     2
+2
  71
-   256
+256
 280
-     1
+1
   0
 DICTIONARY
   5
-191
+199
 102
 {ACAD_REACTORS
 330
@@ -7677,7 +8291,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   0
 DICTIONARY
   5
@@ -7693,7 +8307,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   0
 DICTIONARY
   5
@@ -7709,7 +8323,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 Layout1
 350
@@ -7733,7 +8347,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 ByBlock
 350
@@ -7761,7 +8375,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 Standard
 350
@@ -7781,7 +8395,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 Standard
 350
@@ -7805,7 +8419,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   0
 ACDBDICTIONARYWDFLT
   5
@@ -7821,7 +8435,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 Normal
 350
@@ -7845,7 +8459,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 A0
 350
@@ -7917,7 +8531,7 @@ B6
   0
 DICTIONARY
   5
-192
+19A
 102
 {ACAD_REACTORS
 330
@@ -7929,7 +8543,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   0
 DICTIONARY
   5
@@ -7945,7 +8559,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 Standard
 350
@@ -7969,7 +8583,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 2dWireframe
 350
@@ -8069,7 +8683,7 @@ X-Ray
   0
 WIPEOUTVARIABLES
   5
-17B
+183
 102
 {ACAD_REACTORS
 330
@@ -8081,11 +8695,11 @@ C
 100
 AcDbWipeoutVariables
  70
-     1
+1
   0
 XRECORD
   5
-18E
+196
 102
 {ACAD_REACTORS
 330
@@ -8097,9 +8711,9 @@ C
 100
 AcDbXrecord
 280
-     1
+1
  90
-        1
+1
 330
 122
 330
@@ -8107,7 +8721,7 @@ AcDbXrecord
   0
 DICTIONARY
   5
-188
+190
 102
 {ACAD_REACTORS
 330
@@ -8119,27 +8733,27 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CANNOSCALE
 350
-189
+191
   3
 CENTEREXE
 350
-193
+19B
   3
 CENTERLTYPEFILE
 350
-194
+19C
   3
 CMLEADERSTYLE
 350
-190
+198
   3
 CTABLESTYLE
 350
-18F
+197
   0
 DICTIONARY
   5
@@ -8155,7 +8769,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_CURRENTBOMSTYLE
 350
@@ -8191,7 +8805,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_CURRENTCUTSSTYLE
 350
@@ -8219,7 +8833,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_CUTSSTYLEOVERRIDE
 350
@@ -8239,11 +8853,31 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_DATATABLE*Model_Space
 350
 124
+  0
+DICTIONARY
+  5
+17B
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+281
+1
+  3
+CAXA_DRAFT_DATATABLE*Paper_Space
+350
+17C
   0
 DICTIONARY
   5
@@ -8259,7 +8893,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_CURRENTDATUMSTYLE
 350
@@ -8287,91 +8921,11 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_DATUMSTYLEOVERRIDE
 350
 10E
-  0
-DICTIONARY
-  5
-17C
-102
-{ACAD_REACTORS
-330
-C
-102
-}
-330
-C
-100
-AcDbDictionary
-281
-     1
-  3
-CAXA_DRAFT_DIMSTYLE_ANGTXTVPOS
-350
-17D
-  0
-DICTIONARY
-  5
-180
-102
-{ACAD_REACTORS
-330
-C
-102
-}
-330
-C
-100
-AcDbDictionary
-281
-     1
-  3
-CAXA_DRAFT_DIMSTYLE_ISDISPZEROTOL
-350
-181
-  0
-DICTIONARY
-  5
-17E
-102
-{ACAD_REACTORS
-330
-C
-102
-}
-330
-C
-100
-AcDbDictionary
-281
-     1
-  3
-CAXA_DRAFT_DIMSTYLE_ISFILLDFM
-350
-17F
-  0
-DICTIONARY
-  5
-182
-102
-{ACAD_REACTORS
-330
-C
-102
-}
-330
-C
-100
-AcDbDictionary
-281
-     1
-  3
-CAXA_DRAFT_DIMSTYLE_SYMBOLCOLOR
-350
-183
   0
 DICTIONARY
   5
@@ -8387,11 +8941,91 @@ C
 100
 AcDbDictionary
 281
-     1
+1
+  3
+CAXA_DRAFT_DIMSTYLE_ANGTXTVPOS
+350
+185
+  0
+DICTIONARY
+  5
+188
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+281
+1
+  3
+CAXA_DRAFT_DIMSTYLE_ISDISPZEROTOL
+350
+189
+  0
+DICTIONARY
+  5
+186
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+281
+1
+  3
+CAXA_DRAFT_DIMSTYLE_ISFILLDFM
+350
+187
+  0
+DICTIONARY
+  5
+18A
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+281
+1
+  3
+CAXA_DRAFT_DIMSTYLE_SYMBOLCOLOR
+350
+18B
+  0
+DICTIONARY
+  5
+18C
+102
+{ACAD_REACTORS
+330
+C
+102
+}
+330
+C
+100
+AcDbDictionary
+281
+1
   3
 CAXA_DRAFT_DRAFTDATA
 350
-185
+18D
   0
 DICTIONARY
   5
@@ -8407,7 +9041,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_FILEVERSION
 350
@@ -8427,7 +9061,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_CURRENTGEOTOLSTYLE
 350
@@ -8455,7 +9089,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_GEOTOLSTYLEOVERRIDE
 350
@@ -8475,7 +9109,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_CURRENTLEADERSTYLE
 350
@@ -8499,7 +9133,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_CURRENTPARTNOSTYLE
 350
@@ -8527,7 +9161,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_PARTNOSTYLEOVERRIDE
 350
@@ -8547,7 +9181,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_CURRENTROUGHSTYLE
 350
@@ -8579,7 +9213,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_ROUGHSTYLEOVERRIDE
 350
@@ -8587,7 +9221,7 @@ CAXA_DRAFT_ROUGHSTYLEOVERRIDE
   0
 DICTIONARY
   5
-186
+18E
 102
 {ACAD_REACTORS
 330
@@ -8599,11 +9233,11 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_STDDATA
 350
-187
+18F
   0
 DICTIONARY
   5
@@ -8619,7 +9253,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_CURRENTWELDSTYLE
 350
@@ -8647,7 +9281,7 @@ C
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_WELDSTYLEOVERRIDE
 350
@@ -8657,147 +9291,15 @@ LAYOUT
   5
 1E
 102
-{ACAD_REACTORS
-330
-1A
-102
-}
-330
-1A
-100
-AcDbPlotSettings
-  1
-
-  2
-none_device
-  4
-
-  6
-
- 40
-0.0
- 41
-0.0
- 42
-0.0
- 43
-0.0
- 44
-0.0
- 45
-0.0
- 46
-0.0
- 47
-0.0
- 48
-0.0
- 49
-0.0
-140
-0.0
-141
-0.0
-142
-1.0
-143
-1.0
- 70
-   688
- 72
-     1
- 73
-     0
- 74
-     5
-  7
-
- 75
-    16
- 76
-     0
- 77
-     2
- 78
-   300
-147
-1.0
-148
-0.0
-149
-0.0
-100
-AcDbLayout
-  1
-Layout1
- 70
-     1
- 71
-     1
- 10
-0.0
- 20
-0.0
- 11
-420.0
- 21
-297.0
- 12
-0.0
- 22
-0.0
- 32
-0.0
- 14
-1.000000000000000E+20
- 24
-1.000000000000000E+20
- 34
-1.000000000000000E+20
- 15
--1.000000000000000E+20
- 25
--1.000000000000000E+20
- 35
--1.000000000000000E+20
-146
-0.0
- 13
-0.0
- 23
-0.0
- 33
-0.0
- 16
-1.0
- 26
-0.0
- 36
-0.0
- 17
-0.0
- 27
-1.0
- 37
-0.0
- 76
-     0
-330
-1B
-  0
-LAYOUT
-  5
-22
-102
-{ACAD_REACTORS
-330
-1A
-102
-}
-102
 {ACAD_XDICTIONARY
 360
-125
+17D
+102
+}
+102
+{ACAD_REACTORS
+330
+1A
 102
 }
 330
@@ -8841,23 +9343,163 @@ Letter_(8.50_x_11.00_Inches)
 143
 1.0
  70
-  1712
+672
  72
-     1
+1
  73
-     0
+0
  74
-     0
+5
   7
 
  75
-     0
+16
  76
-     0
+0
  77
-     2
+2
  78
-   300
+300
+147
+1.0
+148
+0.0
+149
+0.0
+100
+AcDbLayout
+  1
+Layout1
+ 70
+1
+ 71
+1
+ 10
+0.0
+ 20
+0.0
+ 11
+420.0
+ 21
+297.0
+ 12
+0.0
+ 22
+0.0
+ 32
+0.0
+ 14
+1e+20
+ 24
+1e+20
+ 34
+1e+20
+ 15
+-1e+20
+ 25
+-1e+20
+ 35
+-1e+20
+146
+0.0
+ 13
+0.0
+ 23
+0.0
+ 33
+0.0
+ 16
+1.0
+ 26
+0.0
+ 36
+0.0
+ 17
+0.0
+ 27
+1.0
+ 37
+0.0
+ 76
+0
+330
+1B
+331
+182
+  0
+LAYOUT
+  5
+22
+102
+{ACAD_XDICTIONARY
+360
+125
+102
+}
+102
+{ACAD_REACTORS
+330
+1A
+102
+}
+330
+1A
+100
+AcDbPlotSettings
+  1
+
+  2
+none_device
+  4
+Letter_(8.50_x_11.00_Inches)
+  6
+
+ 40
+6.35
+ 41
+6.35
+ 42
+6.35000508
+ 43
+6.35000508
+ 44
+215.9
+ 45
+279.4
+ 46
+0.0
+ 47
+0.0
+ 48
+0.0
+ 49
+0.0
+140
+0.0
+141
+0.0
+142
+1.0
+143
+1.0
+ 70
+1712
+ 72
+1
+ 73
+0
+ 74
+0
+  7
+
+ 75
+0
+ 76
+0
+ 77
+2
+ 78
+300
 147
 1.0
 148
@@ -8869,9 +9511,9 @@ AcDbLayout
   1
 Model
  70
-     1
+1
  71
-     0
+0
  10
 -210.0
  20
@@ -8919,7 +9561,7 @@ Model
  37
 0.0
  76
-     0
+0
 330
 1F
 331
@@ -8940,10 +9582,114 @@ MATERIAL
 AcDbMaterial
   1
 ByBlock
+  2
+
+ 70
+0
+ 40
+1.0
+ 71
+0
+ 41
+1.0
+ 91
+-1023410177
+ 42
+1.0
  72
-     1
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 44
+0.5
+ 73
+0
+ 45
+1.0
+ 46
+1.0
+ 77
+1
+  4
+
+ 78
+1
+ 79
+1
+170
+1
+ 48
+1.0
+171
+1
+  6
+
+172
+1
+173
+1
+174
+1
+140
+1.0
+141
+1.0
+175
+1
+  7
+
+176
+1
+177
+1
+178
+1
+143
+1.0
+179
+1
+  8
+
+270
+1
+271
+1
+272
+1
+145
+1.0
+146
+1.0
+273
+1
+  9
+
+274
+1
+275
+1
+276
+1
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
  94
-      127
+127
   0
 MATERIAL
   5
@@ -8960,10 +9706,114 @@ MATERIAL
 AcDbMaterial
   1
 ByLayer
+  2
+
+ 70
+0
+ 40
+1.0
+ 71
+0
+ 41
+1.0
+ 91
+-1023410177
+ 42
+1.0
  72
-     1
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 44
+0.5
+ 73
+0
+ 45
+1.0
+ 46
+1.0
+ 77
+1
+  4
+
+ 78
+1
+ 79
+1
+170
+1
+ 48
+1.0
+171
+1
+  6
+
+172
+1
+173
+1
+174
+1
+140
+1.0
+141
+1.0
+175
+1
+  7
+
+176
+1
+177
+1
+178
+1
+143
+1.0
+179
+1
+  8
+
+270
+1
+271
+1
+272
+1
+145
+1.0
+146
+1.0
+273
+1
+  9
+
+274
+1
+275
+1
+276
+1
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
  94
-      127
+127
   0
 MATERIAL
   5
@@ -8980,10 +9830,114 @@ MATERIAL
 AcDbMaterial
   1
 Global
+  2
+
+ 70
+0
+ 40
+1.0
+ 71
+0
+ 41
+1.0
+ 91
+-1023410177
+ 42
+1.0
  72
-     1
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
+ 44
+0.5
+ 73
+0
+ 45
+1.0
+ 46
+1.0
+ 77
+1
+  4
+
+ 78
+1
+ 79
+1
+170
+1
+ 48
+1.0
+171
+1
+  6
+
+172
+1
+173
+1
+174
+1
+140
+1.0
+141
+1.0
+175
+1
+  7
+
+176
+1
+177
+1
+178
+1
+143
+1.0
+179
+1
+  8
+
+270
+1
+271
+1
+272
+1
+145
+1.0
+146
+1.0
+273
+1
+  9
+
+274
+1
+275
+1
+276
+1
+ 42
+1.0
+ 72
+1
+  3
+
+ 73
+1
+ 74
+1
+ 75
+1
  94
-      127
+127
   0
 MLEADERSTYLE
   5
@@ -8999,33 +9953,33 @@ MLEADERSTYLE
 100
 AcDbMLeaderStyle
 179
-     2
+2
 170
-     2
+2
 171
-     1
+1
 172
-     0
+0
  90
-        2
+2
  40
 0.0
  41
 0.0
 173
-     1
+1
  91
 -1056964608
 340
 14
  92
-       -2
+-2
 290
-     1
+1
  42
 2.0
 291
-     1
+1
  43
 8.0
   3
@@ -9039,23 +9993,25 @@ Standard
 342
 11
 174
-     1
-178
-     6
+1
 175
-     1
+1
 176
-     0
+0
+178
+6
  93
 -1056964608
  45
 4.0
 292
-     0
+0
 297
-     0
+0
  46
 4.0
+293
+1
 343
 0
  94
@@ -9066,30 +10022,28 @@ Standard
 1.0
 140
 1.0
-293
-     1
+294
+1
 141
 0.0
-294
-     1
 177
-     0
+0
 142
 1.0
 295
-     0
+0
 296
-     0
+0
 143
 3.75
 271
-     0
+0
 272
-     9
+9
 273
-     9
+9
 298
-     0
+0
   0
 MLINESTYLE
   5
@@ -9107,27 +10061,27 @@ AcDbMlineStyle
   2
 Standard
  70
-     0
+0
   3
 
  62
-   256
+256
  51
 90.0
  52
 90.0
  71
-     2
+2
  49
 0.5
  62
-   256
+256
   6
 BYLAYER
  49
 -0.5
  62
-   256
+256
   6
 BYLAYER
   0
@@ -9147,27 +10101,27 @@ AcDbMlineStyle
   2
 标准
  70
-     0
+0
   3
 标准
  62
-   256
+256
  51
 90.0
  52
 90.0
  71
-     2
+2
  49
 0.5
  62
-   256
+256
   6
 BYLAYER
  49
 -0.5
  62
-   256
+256
   6
 BYLAYER
   0
@@ -9197,7 +10151,7 @@ SCALE
 100
 AcDbScale
  70
-     0
+0
 300
 1:1
 140
@@ -9205,7 +10159,7 @@ AcDbScale
 141
 1.0
 290
-     1
+1
   0
 SCALE
   5
@@ -9221,7 +10175,7 @@ SCALE
 100
 AcDbScale
  70
-     0
+0
 300
 1:2
 140
@@ -9229,7 +10183,7 @@ AcDbScale
 141
 2.0
 290
-     0
+0
   0
 SCALE
   5
@@ -9245,7 +10199,7 @@ SCALE
 100
 AcDbScale
  70
-     0
+0
 300
 1:4
 140
@@ -9253,7 +10207,7 @@ AcDbScale
 141
 4.0
 290
-     0
+0
   0
 SCALE
   5
@@ -9269,7 +10223,7 @@ SCALE
 100
 AcDbScale
  70
-     0
+0
 300
 1:5
 140
@@ -9277,7 +10231,7 @@ AcDbScale
 141
 5.0
 290
-     0
+0
   0
 SCALE
   5
@@ -9293,7 +10247,7 @@ SCALE
 100
 AcDbScale
  70
-     0
+0
 300
 1:8
 140
@@ -9301,7 +10255,7 @@ AcDbScale
 141
 8.0
 290
-     0
+0
   0
 SCALE
   5
@@ -9317,7 +10271,7 @@ SCALE
 100
 AcDbScale
  70
-     0
+0
 300
 1:10
 140
@@ -9325,7 +10279,7 @@ AcDbScale
 141
 10.0
 290
-     0
+0
   0
 SCALE
   5
@@ -9341,7 +10295,7 @@ SCALE
 100
 AcDbScale
  70
-     0
+0
 300
 1:16
 140
@@ -9349,7 +10303,7 @@ AcDbScale
 141
 16.0
 290
-     0
+0
   0
 SCALE
   5
@@ -9365,7 +10319,7 @@ SCALE
 100
 AcDbScale
  70
-     0
+0
 300
 1:20
 140
@@ -9373,7 +10327,7 @@ AcDbScale
 141
 20.0
 290
-     0
+0
   0
 SCALE
   5
@@ -9389,7 +10343,7 @@ SCALE
 100
 AcDbScale
  70
-     0
+0
 300
 1:30
 140
@@ -9397,7 +10351,7 @@ AcDbScale
 141
 30.0
 290
-     0
+0
   0
 SCALE
   5
@@ -9413,7 +10367,7 @@ SCALE
 100
 AcDbScale
  70
-     0
+0
 300
 1:40
 140
@@ -9421,7 +10375,7 @@ AcDbScale
 141
 40.0
 290
-     0
+0
   0
 SCALE
   5
@@ -9437,7 +10391,7 @@ SCALE
 100
 AcDbScale
  70
-     0
+0
 300
 1:50
 140
@@ -9445,7 +10399,7 @@ AcDbScale
 141
 50.0
 290
-     0
+0
   0
 SCALE
   5
@@ -9461,7 +10415,7 @@ SCALE
 100
 AcDbScale
  70
-     0
+0
 300
 1:100
 140
@@ -9469,7 +10423,7 @@ AcDbScale
 141
 100.0
 290
-     0
+0
   0
 SCALE
   5
@@ -9485,7 +10439,7 @@ SCALE
 100
 AcDbScale
  70
-     0
+0
 300
 2:1
 140
@@ -9493,7 +10447,7 @@ AcDbScale
 141
 1.0
 290
-     0
+0
   0
 SCALE
   5
@@ -9509,7 +10463,7 @@ SCALE
 100
 AcDbScale
  70
-     0
+0
 300
 4:1
 140
@@ -9517,7 +10471,7 @@ AcDbScale
 141
 1.0
 290
-     0
+0
   0
 SCALE
   5
@@ -9533,7 +10487,7 @@ SCALE
 100
 AcDbScale
  70
-     0
+0
 300
 8:1
 140
@@ -9541,7 +10495,7 @@ AcDbScale
 141
 1.0
 290
-     0
+0
   0
 SCALE
   5
@@ -9557,7 +10511,7 @@ SCALE
 100
 AcDbScale
  70
-     0
+0
 300
 10:1
 140
@@ -9565,7 +10519,7 @@ AcDbScale
 141
 1.0
 290
-     0
+0
   0
 SCALE
   5
@@ -9581,7 +10535,7 @@ SCALE
 100
 AcDbScale
  70
-     0
+0
 300
 100:1
 140
@@ -9589,21 +10543,21 @@ AcDbScale
 141
 1.0
 290
-     0
+0
   0
 TABLESTYLE
   5
 5A
 102
-{ACAD_REACTORS
-330
-59
+{ACAD_XDICTIONARY
+360
+192
 102
 }
 102
-{ACAD_XDICTIONARY
-360
-18A
+{ACAD_REACTORS
+330
+59
 102
 }
 330
@@ -9613,193 +10567,193 @@ AcDbTableStyle
   3
 Standard
  70
-     0
+0
  71
-     0
+0
  40
 0.06
  41
 0.06
 280
-     0
+0
 281
-     0
+0
   7
 Standard
 140
 4.5
 170
-     2
+2
  62
-     0
+0
  63
-   257
+257
 283
-     0
+0
  90
-      499
+475
  91
--2043130344
+-1498755816
   1
 
 274
-    -2
+-2
 284
-     1
+1
  64
-     0
+0
 275
-    -2
+-2
 285
-     1
+1
  65
-     0
+0
 276
-    -2
+-2
 286
-     1
+1
  66
-     0
+0
 277
-    -2
+-2
 287
-     1
+1
  67
-     0
+0
 278
-    -2
+-2
 288
-     1
+1
  68
-     0
+0
 279
-    -2
+-2
 289
-     1
+1
  69
-     0
+0
   7
 Standard
 140
 6.0
 170
-     5
+5
  62
-     0
+0
  63
-   257
+257
 283
-     0
+0
  90
-      499
+475
  91
--2043130344
+-1498755816
   1
 
 274
-    -2
+-2
 284
-     1
+1
  64
-     0
+0
 275
-    -2
+-2
 285
-     1
+1
  65
-     0
+0
 276
-    -2
+-2
 286
-     1
+1
  66
-     0
+0
 277
-    -2
+-2
 287
-     1
+1
  67
-     0
+0
 278
-    -2
+-2
 288
-     1
+1
  68
-     0
+0
 279
-    -2
+-2
 289
-     1
+1
  69
-     0
+0
   7
 Standard
 140
 4.5
 170
-     5
+5
  62
-     0
+0
  63
-   257
+257
 283
-     0
+0
  90
-      499
+475
  91
--2043130344
+-1498755816
   1
 
 274
-    -2
+-2
 284
-     1
+1
  64
-     0
+0
 275
-    -2
+-2
 285
-     1
+1
  65
-     0
+0
 276
-    -2
+-2
 286
-     1
+1
  66
-     0
+0
 277
-    -2
+-2
 287
-     1
+1
  67
-     0
+0
 278
-    -2
+-2
 288
-     1
+1
  68
-     0
+0
 279
-    -2
+-2
 289
-     1
+1
  69
-     0
+0
   0
 TABLESTYLE
   5
 122
 102
-{ACAD_REACTORS
-330
-59
+{ACAD_XDICTIONARY
+360
+194
 102
 }
 102
-{ACAD_XDICTIONARY
-360
-18C
+{ACAD_REACTORS
+330
+59
 102
 }
 330
@@ -9809,179 +10763,179 @@ AcDbTableStyle
   3
 
  70
-     0
+0
  71
-     0
+0
  40
 0.06
  41
 0.06
 280
-     0
+0
 281
-     0
+0
   7
 标准
 140
 4.5
 170
-     2
+2
  62
-     0
+0
  63
-   257
+257
 283
-     0
+0
  90
-      499
+475
  91
--2043142056
+-1639670296
   1
 
 274
-    -2
+-2
 284
-     1
+1
  64
-     0
+0
 275
-    -2
+-2
 285
-     1
+1
  65
-     0
+0
 276
-    -2
+-2
 286
-     1
+1
  66
-     0
+0
 277
-    -2
+-2
 287
-     1
+1
  67
-     0
+0
 278
-    -2
+-2
 288
-     1
+1
  68
-     0
+0
 279
-    -2
+-2
 289
-     1
+1
  69
-     0
+0
   7
 标准
 140
 6.0
 170
-     5
+5
  62
-     0
+0
  63
-   257
+257
 283
-     0
+0
  90
-      499
+475
  91
--2043142056
+-1639670296
   1
 
 274
-    -2
+-2
 284
-     1
+1
  64
-     0
+0
 275
-    -2
+-2
 285
-     1
+1
  65
-     0
+0
 276
-    -2
+-2
 286
-     1
+1
  66
-     0
+0
 277
-    -2
+-2
 287
-     1
+1
  67
-     0
+0
 278
-    -2
+-2
 288
-     1
+1
  68
-     0
+0
 279
-    -2
+-2
 289
-     1
+1
  69
-     0
+0
   7
 标准
 140
 4.5
 170
-     5
+5
  62
-     0
+0
  63
-   257
+257
 283
-     0
+0
  90
-      499
+475
  91
--2043142056
+-1639670296
   1
 
 274
-    -2
+-2
 284
-     1
+1
  64
-     0
+0
 275
-    -2
+-2
 285
-     1
+1
  65
-     0
+0
 276
-    -2
+-2
 286
-     1
+1
  66
-     0
+0
 277
-    -2
+-2
 287
-     1
+1
  67
-     0
+0
 278
-    -2
+-2
 288
-     1
+1
  68
-     0
+0
 279
-    -2
+-2
 289
-     1
+1
  69
-     0
+0
   0
 VISUALSTYLE
   5
@@ -9999,251 +10953,251 @@ AcDbVisualStyle
   2
 2dWireframe
  70
-     4
+4
 177
-     3
+3
 291
-     0
+0
  70
-    58
+58
  90
-        0
+0
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        4
+4
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        5
+5
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -10261,251 +11215,251 @@ AcDbVisualStyle
   2
 Basic
  70
-     7
+7
 177
-     3
+3
 291
-     1
+1
  70
-    58
+58
  90
-        1
+1
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        4
+4
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        8
+8
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        5
+5
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -10523,251 +11477,251 @@ AcDbVisualStyle
   2
 Brighten
  70
-    12
+12
 177
-     3
+3
 291
-     1
+1
  70
-    58
+58
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        4
+4
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        8
+8
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        5
+5
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 50.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -10785,253 +11739,253 @@ AcDbVisualStyle
   2
 ColorChange
  70
-    16
+16
 177
-     3
+3
 291
-     1
+1
  70
-    58
+58
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     8
+8
 420
-  8421504
+8421504
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        4
+4
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        8
+8
 176
-     1
+1
  62
-     8
+8
 420
-  8421504
+8421504
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        5
+5
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -11049,251 +12003,251 @@ AcDbVisualStyle
   2
 Conceptual
  70
-     9
+9
 177
-     3
+3
 291
-     0
+0
  70
-    58
+58
  90
-        3
+3
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 179.0
 176
-     1
+1
  90
-        8
+8
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -11311,251 +12265,251 @@ AcDbVisualStyle
   2
 Dim
  70
-    11
+11
 177
-     3
+3
 291
-     1
+1
  70
-    58
+58
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        4
+4
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        8
+8
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        5
+5
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 -50.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -11573,251 +12527,251 @@ AcDbVisualStyle
   2
 EdgeColorOff
  70
-    22
+22
 177
-     3
+3
 291
-     1
+1
  70
-    58
+58
  90
-        2
+2
 176
-     0
+0
  90
-        2
+2
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
  40
 0.6
 176
-     0
+0
  40
 30.0
 176
-     0
+0
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     0
+0
  90
-        1
+1
 176
-     0
+0
  90
-        4
+4
 176
-     0
+0
  62
-     7
+7
 176
-     0
+0
  62
-   257
+257
 176
-     0
+0
  90
-        1
+1
 176
-     0
+0
  90
-        1
+1
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        8
+8
 176
-     2
+2
  62
-     7
+7
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        1
+1
 176
-     0
+0
  90
-        6
+6
 176
-     0
+0
  90
-        2
+2
 176
-     0
+0
  62
-     7
+7
 176
-     0
+0
  90
-        5
+5
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
  90
-        1
+1
 176
-     0
+0
  40
 0.0
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     1
+1
 176
-     0
+0
 290
-     1
+1
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
  40
 0.0
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
  62
-    18
+18
 420
-        0
+0
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
  90
-        3
+3
 176
-     0
+0
  62
-     5
+5
 420
-      255
+255
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     0
+0
   1
 strokes_ogs.tif
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  40
 1.0
 176
-     0
+0
   0
 VISUALSTYLE
   5
@@ -11835,251 +12789,251 @@ AcDbVisualStyle
   2
 Facepattern
  70
-    15
+15
 177
-     3
+3
 291
-     1
+1
  70
-    58
+58
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        4
+4
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        8
+8
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        5
+5
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -12097,251 +13051,251 @@ AcDbVisualStyle
   2
 Flat
  70
-     0
+0
 177
-     3
+3
 291
-     1
+1
  70
-    58
+58
  90
-        2
+2
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        8
+8
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        5
+5
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       13
+13
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -12359,251 +13313,251 @@ AcDbVisualStyle
   2
 FlatWithEdges
  70
-     1
+1
 177
-     3
+3
 291
-     1
+1
  70
-    58
+58
  90
-        2
+2
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        5
+5
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       13
+13
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -12621,251 +13575,251 @@ AcDbVisualStyle
   2
 Gouraud
  70
-     2
+2
 177
-     3
+3
 291
-     1
+1
  70
-    58
+58
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        5
+5
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       13
+13
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -12883,251 +13837,251 @@ AcDbVisualStyle
   2
 GouraudWithEdges
  70
-     3
+3
 177
-     3
+3
 291
-     1
+1
  70
-    58
+58
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        5
+5
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       13
+13
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -13145,251 +14099,251 @@ AcDbVisualStyle
   2
 Hidden
  70
-     6
+6
 177
-     3
+3
 291
-     0
+0
  70
-    58
+58
  90
-        1
+1
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 40.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -13407,251 +14361,251 @@ AcDbVisualStyle
   2
 JitterOff
  70
-    20
+20
 177
-     3
+3
 291
-     1
+1
  70
-    58
+58
  90
-        2
+2
 176
-     0
+0
  90
-        2
+2
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
  40
 0.6
 176
-     0
+0
  40
 30.0
 176
-     0
+0
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     0
+0
  90
-        1
+1
 176
-     0
+0
  90
-        4
+4
 176
-     0
+0
  62
-     7
+7
 176
-     0
+0
  62
-   257
+257
 176
-     0
+0
  90
-        1
+1
 176
-     0
+0
  90
-        1
+1
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-       10
+10
 176
-     2
+2
  62
-     7
+7
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        1
+1
 176
-     0
+0
  90
-        6
+6
 176
-     0
+0
  90
-        2
+2
 176
-     0
+0
  62
-     7
+7
 176
-     0
+0
  90
-        5
+5
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
  90
-        1
+1
 176
-     0
+0
  40
 0.0
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     1
+1
 176
-     0
+0
 290
-     1
+1
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
  40
 0.0
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
  62
-    18
+18
 420
-        0
+0
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
  90
-        3
+3
 176
-     0
+0
  62
-     5
+5
 420
-      255
+255
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     0
+0
   1
 strokes_ogs.tif
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  40
 1.0
 176
-     0
+0
   0
 VISUALSTYLE
   5
@@ -13669,251 +14623,251 @@ AcDbVisualStyle
   2
 Linepattern
  70
-    14
+14
 177
-     3
+3
 291
-     1
+1
  70
-    58
+58
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        4
+4
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        7
+7
 176
-     1
+1
  90
-        7
+7
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        8
+8
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        5
+5
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -13931,251 +14885,251 @@ AcDbVisualStyle
   2
 OverhangOff
  70
-    21
+21
 177
-     3
+3
 291
-     1
+1
  70
-    58
+58
  90
-        2
+2
 176
-     0
+0
  90
-        2
+2
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
  40
 0.6
 176
-     0
+0
  40
 30.0
 176
-     0
+0
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     0
+0
  90
-        1
+1
 176
-     0
+0
  90
-        4
+4
 176
-     0
+0
  62
-     7
+7
 176
-     0
+0
  62
-   257
+257
 176
-     0
+0
  90
-        1
+1
 176
-     0
+0
  90
-        1
+1
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        9
+9
 176
-     2
+2
  62
-     7
+7
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        1
+1
 176
-     0
+0
  90
-        6
+6
 176
-     0
+0
  90
-        2
+2
 176
-     0
+0
  62
-     7
+7
 176
-     0
+0
  90
-        5
+5
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
  90
-        1
+1
 176
-     0
+0
  40
 0.0
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     1
+1
 176
-     0
+0
 290
-     1
+1
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
  40
 0.0
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        0
+0
 176
-     0
+0
  62
-    18
+18
 420
-        0
+0
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
  90
-        3
+3
 176
-     0
+0
  62
-     5
+5
 420
-      255
+255
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
  90
-       50
+50
 176
-     0
+0
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     0
+0
   1
 strokes_ogs.tif
 176
-     0
+0
 290
-     0
+0
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  40
 1.0
 176
-     0
+0
   0
 VISUALSTYLE
   5
@@ -14193,251 +15147,251 @@ AcDbVisualStyle
   2
 Realistic
  70
-     8
+8
 177
-     3
+3
 291
-     0
+0
  70
-    58
+58
  90
-        2
+2
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        8
+8
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       13
+13
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -14455,253 +15409,253 @@ AcDbVisualStyle
   2
 Shaded
  70
-    27
+27
 177
-     3
+3
 291
-     0
+0
  70
-    58
+58
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        4
+4
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        8
+8
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     8
+8
 420
-  7895160
+7895160
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-        5
+5
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -14719,251 +15673,251 @@ AcDbVisualStyle
   2
 Shaded with edges
  70
-    26
+26
 177
-     3
+3
 291
-     0
+0
  70
-    58
+58
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-       10
+10
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        8
+8
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-        5
+5
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -14981,251 +15935,251 @@ AcDbVisualStyle
   2
 Shades of Gray
  70
-    23
+23
 177
-     3
+3
 291
-     0
+0
  70
-    58
+58
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 40.0
 176
-     1
+1
  90
-        8
+8
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -15243,251 +16197,251 @@ AcDbVisualStyle
   2
 Sketchy
  70
-    24
+24
 177
-     3
+3
 291
-     0
+0
  70
-    58
+58
  90
-        1
+1
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 40.0
 176
-     1
+1
  90
-       11
+11
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -15505,251 +16459,251 @@ AcDbVisualStyle
   2
 Thicken
  70
-    13
+13
 177
-     3
+3
 291
-     1
+1
  70
-    58
+58
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        4
+4
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-       12
+12
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        5
+5
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -15767,251 +16721,251 @@ AcDbVisualStyle
   2
 Wireframe
  70
-     5
+5
 177
-     3
+3
 291
-     0
+0
  70
-    58
+58
  90
-        0
+0
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  40
 0.6
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        4
+4
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 VISUALSTYLE
   5
@@ -16029,339 +16983,339 @@ AcDbVisualStyle
   2
 X-Ray
  70
-    25
+25
 177
-     3
+3
 291
-     0
+0
  70
-    58
+58
  90
-        2
+2
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 0.5
 176
-     1
+1
  40
 30.0
 176
-     1
+1
  62
-     7
+7
 420
- 16777215
+16777215
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  62
-   257
+257
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        8
+8
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        1
+1
 176
-     1
+1
  90
-        6
+6
 176
-     1
+1
  90
-        2
+2
 176
-     1
+1
  62
-     7
+7
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       13
+13
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     1
+1
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  40
 0.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  90
-        0
+0
 176
-     1
+1
  62
-    18
+18
 420
-        0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-        3
+3
 176
-     1
+1
  62
-     5
+5
 420
-      255
+255
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  90
-       50
+50
 176
-     1
+1
  62
-   256
+256
 176
-     0
+0
  40
 1.0
 176
-     0
+0
  90
-        2
+2
 176
-     1
+1
   1
 strokes_ogs.tif
 176
-     1
+1
 290
-     0
+0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
  40
 1.0
 176
-     1
+1
   0
 DICTIONARYVAR
   5
-189
+191
 102
 {ACAD_REACTORS
 330
-188
+190
 102
 }
 330
-188
+190
 100
 DictionaryVariables
 280
-     0
+0
   1
 1:1
   0
 DICTIONARYVAR
   5
-193
+19B
 102
 {ACAD_REACTORS
 330
-188
+190
 102
 }
 330
-188
+190
 100
 DictionaryVariables
 280
-     0
+0
   1
 3.500000
   0
 DICTIONARYVAR
   5
-194
+19C
 102
 {ACAD_REACTORS
 330
-188
+190
 102
 }
 330
-188
+190
 100
 DictionaryVariables
 280
-     0
+0
   1
 acadiso.lin
   0
 DICTIONARYVAR
   5
-190
+198
 102
 {ACAD_REACTORS
 330
-188
+190
 102
 }
 330
-188
+190
 100
 DictionaryVariables
 280
-     0
+0
   1
 Standard
   0
 DICTIONARYVAR
   5
-18F
+197
 102
 {ACAD_REACTORS
 330
-188
+190
 102
 }
 330
-188
+190
 100
 DictionaryVariables
 280
-     0
+0
   1
 Standard
   0
@@ -16379,7 +17333,7 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -16401,7 +17355,7 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -16413,9 +17367,9 @@ GB(4458.2-2003)
 1041
 7.0
 1071
-        0
+0
 1071
-     1011
+1011
 1041
 1.66
 1041
@@ -16437,55 +17391,55 @@ Continuous
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.25
 1071
-        3
+3
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.25
 1071
-        3
+3
 1070
-     0
+0
 1071
-       10
+10
 1000
 序号
 1000
@@ -16493,13 +17447,13 @@ IndexID
 1000
 
 1071
-       10
+10
 1071
-       16
+16
 1070
-     2
+2
 1070
-     0
+0
 1041
 0.0
 1041
@@ -16519,11 +17473,11 @@ IndexID
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1001
+1001
 1000
 代号
 1000
@@ -16531,13 +17485,13 @@ PCPNo
 1000
 
 1071
-       10
+10
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 8.0
 1041
@@ -16557,11 +17511,11 @@ PCPNo
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1002
+1002
 1000
 名称
 1000
@@ -16569,13 +17523,13 @@ PCPName
 1000
 
 1071
-       10
+10
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 48.0
 1041
@@ -16595,11 +17549,11 @@ PCPName
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1003
+1003
 1000
 数量
 1000
@@ -16607,13 +17561,13 @@ Amount
 1000
 
 1071
-        3
+3
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 92.0
 1041
@@ -16633,11 +17587,11 @@ Amount
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1004
+1004
 1000
 材料
 1000
@@ -16645,13 +17599,13 @@ MaterialName
 1000
 
 1071
-       10
+10
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 100.0
 1041
@@ -16671,11 +17625,11 @@ MaterialName
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1005
+1005
 1000
 重量
 1000
@@ -16683,13 +17637,13 @@ MaterialName
 1000
 
 1071
-        7
+7
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 138.0
 1041
@@ -16709,11 +17663,11 @@ MaterialName
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1006
+1006
 1000
 单件
 1000
@@ -16721,13 +17675,13 @@ Weight
 1000
 
 1071
-        7
+7
 1071
-       32
+32
 1070
-     2
+2
 1070
-     1
+1
 1041
 138.0
 1041
@@ -16747,11 +17701,11 @@ Weight
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1007
+1007
 1000
 总计
 1000
@@ -16759,13 +17713,13 @@ TWeight
 1000
 
 1071
-        7
+7
 1071
-       32
+32
 1070
-     2
+2
 1070
-     1
+1
 1041
 148.0
 1041
@@ -16785,11 +17739,11 @@ TWeight
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1008
+1008
 1000
 备注
 1000
@@ -16797,13 +17751,13 @@ Remark
 1000
 
 1071
-       10
+10
 1071
-       50
+50
 1070
-     2
+2
 1070
-     0
+0
 1041
 160.0
 1041
@@ -16823,11 +17777,11 @@ Remark
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1009
+1009
 1000
 来源
 1000
@@ -16835,13 +17789,13 @@ Source
 1000
 
 1071
-       10
+10
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 180.0
 1041
@@ -16861,21 +17815,21 @@ Source
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1010
-1071
-1090519039
+1010
 1071
 1090519039
 1071
 1090519039
 1071
-        1
+1090519039
 1071
-        7
+1
+1071
+7
 1000
 代号
 1000
@@ -16891,7 +17845,7 @@ Source
 1000
 来源
 1071
-        1
+1
 1000
 数量
 1071
@@ -16927,7 +17881,7 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -16939,9 +17893,9 @@ CAXA_DRAFT_BOMSTYLE
 1041
 7.0
 1071
-        0
+0
 1071
-     1011
+1011
 1041
 1.66
 1041
@@ -16963,55 +17917,55 @@ Continuous
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.25
 1071
-        3
+3
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.25
 1071
-        3
+3
 1070
-     0
+0
 1071
-       10
+10
 1000
 序号
 1000
@@ -17019,13 +17973,13 @@ IndexID
 1000
 
 1071
-       10
+10
 1071
-       16
+16
 1070
-     2
+2
 1070
-     0
+0
 1041
 0.0
 1041
@@ -17045,11 +17999,11 @@ IndexID
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1001
+1001
 1000
 代号
 1000
@@ -17057,13 +18011,13 @@ PCPNo
 1000
 
 1071
-       10
+10
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 8.0
 1041
@@ -17083,11 +18037,11 @@ PCPNo
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1002
+1002
 1000
 名称
 1000
@@ -17095,13 +18049,13 @@ PCPName
 1000
 
 1071
-       10
+10
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 48.0
 1041
@@ -17121,11 +18075,11 @@ PCPName
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1003
+1003
 1000
 数量
 1000
@@ -17133,13 +18087,13 @@ Amount
 1000
 
 1071
-        3
+3
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 92.0
 1041
@@ -17159,11 +18113,11 @@ Amount
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1004
+1004
 1000
 材料
 1000
@@ -17171,13 +18125,13 @@ MaterialName
 1000
 
 1071
-       10
+10
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 100.0
 1041
@@ -17197,11 +18151,11 @@ MaterialName
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1005
+1005
 1000
 重量
 1000
@@ -17209,13 +18163,13 @@ MaterialName
 1000
 
 1071
-        7
+7
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 138.0
 1041
@@ -17235,11 +18189,11 @@ MaterialName
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1006
+1006
 1000
 单件
 1000
@@ -17247,13 +18201,13 @@ Weight
 1000
 
 1071
-        7
+7
 1071
-       32
+32
 1070
-     2
+2
 1070
-     1
+1
 1041
 138.0
 1041
@@ -17273,11 +18227,11 @@ Weight
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1007
+1007
 1000
 总计
 1000
@@ -17285,13 +18239,13 @@ TWeight
 1000
 
 1071
-        7
+7
 1071
-       32
+32
 1070
-     2
+2
 1070
-     1
+1
 1041
 148.0
 1041
@@ -17311,11 +18265,11 @@ TWeight
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1008
+1008
 1000
 备注
 1000
@@ -17323,13 +18277,13 @@ Remark
 1000
 
 1071
-       10
+10
 1071
-       50
+50
 1070
-     2
+2
 1070
-     0
+0
 1041
 160.0
 1041
@@ -17349,11 +18303,11 @@ Remark
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1009
+1009
 1000
 来源
 1000
@@ -17361,13 +18315,13 @@ Source
 1000
 
 1071
-       10
+10
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 180.0
 1041
@@ -17387,21 +18341,21 @@ Source
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1010
-1071
-1090519039
+1010
 1071
 1090519039
 1071
 1090519039
 1071
-        1
+1090519039
 1071
-        7
+1
+1071
+7
 1000
 代号
 1000
@@ -17417,7 +18371,7 @@ Source
 1000
 来源
 1071
-        1
+1
 1000
 数量
 1071
@@ -17453,7 +18407,7 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -17465,9 +18419,9 @@ CAXA_DRAFT_BOMSTYLE
 1041
 7.0
 1071
-        0
+0
 1071
-     1011
+1011
 1041
 1.66
 1041
@@ -17489,55 +18443,55 @@ Continuous
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.25
 1071
-        3
+3
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.25
 1071
-        3
+3
 1070
-     0
+0
 1071
-       10
+10
 1000
 序号
 1000
@@ -17545,13 +18499,13 @@ IndexID
 1000
 
 1071
-       10
+10
 1071
-       16
+16
 1070
-     2
+2
 1070
-     0
+0
 1041
 0.0
 1041
@@ -17571,11 +18525,11 @@ IndexID
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1001
+1001
 1000
 代号
 1000
@@ -17583,13 +18537,13 @@ PCPNo
 1000
 
 1071
-       10
+10
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 8.0
 1041
@@ -17609,11 +18563,11 @@ PCPNo
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1002
+1002
 1000
 名称
 1000
@@ -17621,13 +18575,13 @@ PCPName
 1000
 
 1071
-       10
+10
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 48.0
 1041
@@ -17647,11 +18601,11 @@ PCPName
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1003
+1003
 1000
 数量
 1000
@@ -17659,13 +18613,13 @@ Amount
 1000
 
 1071
-        3
+3
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 92.0
 1041
@@ -17685,11 +18639,11 @@ Amount
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1004
+1004
 1000
 材料
 1000
@@ -17697,13 +18651,13 @@ MaterialName
 1000
 
 1071
-       10
+10
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 100.0
 1041
@@ -17723,11 +18677,11 @@ MaterialName
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1005
+1005
 1000
 重量
 1000
@@ -17735,13 +18689,13 @@ MaterialName
 1000
 
 1071
-        7
+7
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 138.0
 1041
@@ -17761,11 +18715,11 @@ MaterialName
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1006
+1006
 1000
 单件
 1000
@@ -17773,13 +18727,13 @@ Weight
 1000
 
 1071
-        7
+7
 1071
-       32
+32
 1070
-     2
+2
 1070
-     1
+1
 1041
 138.0
 1041
@@ -17799,11 +18753,11 @@ Weight
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1007
+1007
 1000
 总计
 1000
@@ -17811,13 +18765,13 @@ TWeight
 1000
 
 1071
-        7
+7
 1071
-       32
+32
 1070
-     2
+2
 1070
-     1
+1
 1041
 148.0
 1041
@@ -17837,11 +18791,11 @@ TWeight
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1008
+1008
 1000
 备注
 1000
@@ -17849,13 +18803,13 @@ Remark
 1000
 
 1071
-       10
+10
 1071
-       50
+50
 1070
-     2
+2
 1070
-     0
+0
 1041
 160.0
 1041
@@ -17875,11 +18829,11 @@ Remark
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1009
+1009
 1000
 来源
 1000
@@ -17887,13 +18841,13 @@ Source
 1000
 
 1071
-       10
+10
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 180.0
 1041
@@ -17913,21 +18867,21 @@ Source
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1010
-1071
-1090519039
+1010
 1071
 1090519039
 1071
 1090519039
 1071
-        1
+1090519039
 1071
-        7
+1
+1071
+7
 1000
 代号
 1000
@@ -17943,7 +18897,7 @@ Source
 1000
 来源
 1071
-        1
+1
 1000
 数量
 1071
@@ -17979,7 +18933,7 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -17991,9 +18945,9 @@ CAXA_DRAFT_BOMSTYLE
 1041
 7.0
 1071
-        0
+0
 1071
-     1011
+1011
 1041
 1.66
 1041
@@ -18015,55 +18969,55 @@ Continuous
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.25
 1071
-        3
+3
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.5
 1071
-        4
+4
 1041
 0.25
 1071
-        3
+3
 1070
-     0
+0
 1071
-       10
+10
 1000
 序号
 1000
@@ -18071,13 +19025,13 @@ IndexID
 1000
 
 1071
-       10
+10
 1071
-       16
+16
 1070
-     2
+2
 1070
-     0
+0
 1041
 0.0
 1041
@@ -18097,11 +19051,11 @@ IndexID
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1001
+1001
 1000
 代号
 1000
@@ -18109,13 +19063,13 @@ PCPNo
 1000
 
 1071
-       10
+10
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 8.0
 1041
@@ -18135,11 +19089,11 @@ PCPNo
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1002
+1002
 1000
 名称
 1000
@@ -18147,13 +19101,13 @@ PCPName
 1000
 
 1071
-       10
+10
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 48.0
 1041
@@ -18173,11 +19127,11 @@ PCPName
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1003
+1003
 1000
 数量
 1000
@@ -18185,13 +19139,13 @@ Amount
 1000
 
 1071
-        3
+3
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 92.0
 1041
@@ -18211,11 +19165,11 @@ Amount
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1004
+1004
 1000
 材料
 1000
@@ -18223,13 +19177,13 @@ MaterialName
 1000
 
 1071
-       10
+10
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 100.0
 1041
@@ -18249,11 +19203,11 @@ MaterialName
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1005
+1005
 1000
 重量
 1000
@@ -18261,13 +19215,13 @@ MaterialName
 1000
 
 1071
-        7
+7
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 138.0
 1041
@@ -18287,11 +19241,11 @@ MaterialName
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1006
+1006
 1000
 单件
 1000
@@ -18299,13 +19253,13 @@ Weight
 1000
 
 1071
-        7
+7
 1071
-       32
+32
 1070
-     2
+2
 1070
-     1
+1
 1041
 138.0
 1041
@@ -18325,11 +19279,11 @@ Weight
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1007
+1007
 1000
 总计
 1000
@@ -18337,13 +19291,13 @@ TWeight
 1000
 
 1071
-        7
+7
 1071
-       32
+32
 1070
-     2
+2
 1070
-     1
+1
 1041
 148.0
 1041
@@ -18363,11 +19317,11 @@ TWeight
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1008
+1008
 1000
 备注
 1000
@@ -18375,13 +19329,13 @@ Remark
 1000
 
 1071
-       10
+10
 1071
-       50
+50
 1070
-     2
+2
 1070
-     0
+0
 1041
 160.0
 1041
@@ -18401,11 +19355,11 @@ Remark
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1009
+1009
 1000
 来源
 1000
@@ -18413,13 +19367,13 @@ Source
 1000
 
 1071
-       10
+10
 1071
-       32
+32
 1070
-     2
+2
 1070
-     0
+0
 1041
 180.0
 1041
@@ -18439,21 +19393,21 @@ Source
 1000
 标准
 1071
-        4
+4
 1070
-     3
+3
 1071
-     1010
-1071
-1090519039
+1010
 1071
 1090519039
 1071
 1090519039
 1071
-        1
+1090519039
 1071
-        7
+1
+1071
+7
 1000
 代号
 1000
@@ -18469,7 +19423,7 @@ Source
 1000
 来源
 1071
-        1
+1
 1000
 数量
 1071
@@ -18505,7 +19459,7 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -18527,7 +19481,7 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -18545,29 +19499,29 @@ GB(17452-1998)
 1000
 标准
 1070
-     1
+1
 1041
 4.0
 1071
 1090519039
 1070
-     0
+0
 1070
-     0
+0
 1071
 1090519039
 1041
 3.5
 1070
-     1
+1
 1041
 1.0
 1070
-     0
+0
 1000
 Dash Dot
 1071
-        1
+1
   0
 XRECORD
   5
@@ -18583,7 +19537,7 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -18601,29 +19555,29 @@ CAXA_DRAFT_CUTSSTYLE
 1000
 标准
 1070
-     1
+1
 1041
 4.0
 1071
 1090519039
 1070
-     0
+0
 1070
-     0
+0
 1071
 1090519039
 1041
 3.5
 1070
-     1
+1
 1041
 1.0
 1070
-     0
+0
 1000
 Dash Dot
 1071
-        1
+1
   0
 XRECORD
   5
@@ -18639,45 +19593,45 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
 CAXA_DRAFT_CUTSSTYLEOVERRIDE
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
   0
 XRECORD
   5
@@ -18693,83 +19647,83 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
 CAXA_DRAFT_DATATABLE*Model_Space
 1071
-      103
+103
 1071
-        2
+2
 1071
-        0
+0
 1071
-        0
+0
 1071
-        0
+0
 1071
-        9
+9
 1000
 序号
 1071
-     1001
+1001
 1000
 代号
 1071
-     1002
+1002
 1000
 名称
 1071
-     1003
+1003
 1000
 数量
 1071
-     1004
+1004
 1000
 材料
 1071
-     1005
+1005
 1000
 单件
 1071
-     1007
+1007
 1000
 总计
 1071
-     1008
+1008
 1000
 备注
 1071
-     1009
+1009
 1000
 来源
 1071
-     1010
+1010
 1000
 序号
 1070
-     1
+1
 1000
 
 1070
-     1
+1
 1000
 
 1070
-     1
+1
 1000
 
 1070
-     1
+1
 1000
 
 1070
-     1
+1
 1071
-        0
+0
 1071
-        7
+7
 1000
 代号
 1000
@@ -18785,23 +19739,147 @@ CAXA_DRAFT_DATATABLE*Model_Space
 1000
 来源
 1071
-        1
+1
 1000
 数量
 1071
-        0
+0
 1000
 
 1000
 
 1070
-     1
+1
 1000
 GB(4458.2-2003)
 1071
-        0
+0
 1071
-        0
+0
+  0
+XRECORD
+  5
+17C
+102
+{ACAD_REACTORS
+330
+17B
+102
+}
+330
+17B
+100
+AcDbXrecord
+280
+1
+1000
+
+1000
+CAXA_DRAFT_DATATABLE*Paper_Space
+1071
+101
+1071
+2
+1071
+0
+1071
+0
+1071
+0
+1071
+9
+1000
+序号
+1071
+1001
+1000
+代号
+1071
+1002
+1000
+名称
+1071
+1003
+1000
+数量
+1071
+1004
+1000
+材料
+1071
+1005
+1000
+单件
+1071
+1007
+1000
+总计
+1071
+1008
+1000
+备注
+1071
+1009
+1000
+来源
+1071
+1010
+1000
+序号
+1070
+1
+1000
+
+1070
+1
+1000
+
+1070
+1
+1000
+
+1070
+1
+1000
+
+1070
+1
+1071
+0
+1071
+7
+1000
+代号
+1000
+名称
+1000
+材料
+1000
+单件
+1000
+总计
+1000
+备注
+1000
+来源
+1071
+1
+1000
+数量
+1071
+0
+1000
+
+1000
+
+1070
+1
+1000
+GB(4458.2-2003)
+1071
+0
+1071
+0
   0
 XRECORD
   5
@@ -18817,7 +19895,7 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -18839,7 +19917,7 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -18849,7 +19927,7 @@ GB(1182-2008)
 1000
 
 1070
-     2
+2
 1071
 1090519039
 1071
@@ -18865,17 +19943,17 @@ GB(1182-2008)
 1071
 1090519039
 1070
-     1
+1
 1041
 0.0
 1071
-        1
+1
 1071
 1090519039
 1070
-     1
+1
 1071
-        1
+1
   0
 XRECORD
   5
@@ -18891,7 +19969,7 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -18901,7 +19979,7 @@ CAXA_DRAFT_DATUMSTYLE
 1000
 
 1070
-     2
+2
 1071
 1090519039
 1071
@@ -18917,17 +19995,17 @@ CAXA_DRAFT_DATUMSTYLE
 1071
 1090519039
 1070
-     1
+1
 1041
 0.0
 1071
-        1
+1
 1071
 1090519039
 1070
-     1
+1
 1071
-        1
+1
   0
 XRECORD
   5
@@ -18943,131 +20021,43 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
 CAXA_DRAFT_DATUMSTYLEOVERRIDE
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
-  0
-XRECORD
-  5
-17D
-102
-{ACAD_REACTORS
-330
-17C
-102
-}
-330
-17C
-100
-AcDbXrecord
-280
-     1
-1000
-
-1000
-CAXA_DRAFT_DIMSTYLE_ANGTXTVPOS
-1070
-     1
-  0
-XRECORD
-  5
-181
-102
-{ACAD_REACTORS
-330
-180
-102
-}
-330
-180
-100
-AcDbXrecord
-280
-     1
-1000
-
-1000
-CAXA_DRAFT_DIMSTYLE_ISDISPZEROTOL
-1070
-     0
-  0
-XRECORD
-  5
-17F
-102
-{ACAD_REACTORS
-330
-17E
-102
-}
-330
-17E
-100
-AcDbXrecord
-280
-     1
-1000
-
-1000
-CAXA_DRAFT_DIMSTYLE_ISFILLDFM
-1070
-     1
-  0
-XRECORD
-  5
-183
-102
-{ACAD_REACTORS
-330
-182
-102
-}
-330
-182
-100
-AcDbXrecord
-280
-     1
-1000
-
-1000
-CAXA_DRAFT_DIMSTYLE_SYMBOLCOLOR
-1071
-1090519039
+0
   0
 XRECORD
   5
@@ -19083,21 +20073,109 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
+1000
+
+1000
+CAXA_DRAFT_DIMSTYLE_ANGTXTVPOS
+1070
+1
+  0
+XRECORD
+  5
+189
+102
+{ACAD_REACTORS
+330
+188
+102
+}
+330
+188
+100
+AcDbXrecord
+280
+1
+1000
+
+1000
+CAXA_DRAFT_DIMSTYLE_ISDISPZEROTOL
+1070
+0
+  0
+XRECORD
+  5
+187
+102
+{ACAD_REACTORS
+330
+186
+102
+}
+330
+186
+100
+AcDbXrecord
+280
+1
+1000
+
+1000
+CAXA_DRAFT_DIMSTYLE_ISFILLDFM
+1070
+1
+  0
+XRECORD
+  5
+18B
+102
+{ACAD_REACTORS
+330
+18A
+102
+}
+330
+18A
+100
+AcDbXrecord
+280
+1
+1000
+
+1000
+CAXA_DRAFT_DIMSTYLE_SYMBOLCOLOR
+1071
+1090519039
+  0
+XRECORD
+  5
+18D
+102
+{ACAD_REACTORS
+330
+18C
+102
+}
+330
+18C
+100
+AcDbXrecord
+280
+1
 1000
 CAXA_DRAFT_DRAFTDATA
 1071
-     1085
+1085
 1004
 0800000030002E003000000026000000430061007800610044007200610066007400200044006F00630075006D0065006E00740000001A000000310038002E0030002E0030002E003100370036003700300000005C00000043006F007000790072006900670068007400200028006300290020003200300032003300200043
 1004
-004100580041002E00200041006C006C0020007200690067006800740073002000720065007300650072007600650064002E0000003E0F097D106FDD41BCAEEAD455061A4C0000000000000000000000000000000000000000E8070C00020011001200230039000D0101000000000000000000000000000000000000000000
+004100580041002E00200041006C006C0020007200690067006800740073002000720065007300650072007600650064002E000000AE6311AACBED794E9272E072F3F5EB330000000000000000000000000000000000000000E8070C0004000C0010001F000E00EC0001000000000000000000000000000000000000000000
 1004
 00
 1004
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 1004
-00000000000000000000004E0000008F00E40054008300CD00E30056008000B100FE002600F500C500E3003D008700C500970054009E00B60090005100F600D90096005100F700C000E60025008300C200E20051008700B700AE000000020000000E00000041007500740068006F00720000000C0000003900370039003800
+00000000000000000000004E0000008F00920051008200C500E5002300F200B100FE005500F700B70091003D008700B100E40029009E00CD00E10027008100D900960020008400C60095002300F500C100960052008000C700AE000000020000000E00000041007500740068006F00720000000C0000003900370039003800
 1004
 34
 1004
@@ -19129,7 +20207,7 @@ D7
 100
 AcDbXrecord
 280
-     1
+1
 1000
 CAXA_DRAFT_FILEVERSION
 1000
@@ -19153,7 +20231,7 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -19175,7 +20253,7 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -19189,43 +20267,43 @@ GB(1182-2008)
 1000
 标准
 1070
-     1
+1
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     1
+1
 1070
-     0
+0
 1070
-     3
+3
 1000
-.蘪
+.ꚩ
 1070
-     0
+0
 1070
-     1
+1
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     3
+3
 1041
 1.0
 1000
 .
 1070
-     0
+0
 1070
-     1
+1
 1070
-     0
+0
 1000
 Continuous
 1071
@@ -19241,11 +20319,11 @@ Continuous
 1071
 1090519039
 1071
-        1
+1
 1070
-     0
+0
 1070
-     0
+0
   0
 XRECORD
   5
@@ -19261,7 +20339,7 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -19275,43 +20353,43 @@ CAXA_DRAFT_GEOTOLSTYLE
 1000
 标准
 1070
-     1
+1
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     1
+1
 1070
-     0
+0
 1070
-     3
+3
 1000
-.蘪ǳ
+.ꚩǛ
 1070
-     0
+0
 1070
-     1
+1
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     3
+3
 1041
 1.0
 1000
 .
 1070
-     0
+0
 1070
-     1
+1
 1070
-     0
+0
 1000
 Continuous
 1071
@@ -19327,11 +20405,11 @@ Continuous
 1071
 1090519039
 1071
-        1
+1
 1070
-     0
+0
 1070
-     0
+0
   0
 XRECORD
   5
@@ -19347,71 +20425,71 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
 CAXA_DRAFT_GEOTOLSTYLEOVERRIDE
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
   0
 XRECORD
   5
@@ -19427,7 +20505,7 @@ F3
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -19449,7 +20527,7 @@ F3
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -19459,7 +20537,7 @@ CAXA_DRAFT_LEADERSTYLE
 1000
 
 1070
-     1
+1
 1041
 4.0
 1041
@@ -19475,7 +20553,7 @@ Continuous
 1041
 3.5
 1070
-     1
+1
   0
 XRECORD
   5
@@ -19491,7 +20569,7 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -19513,7 +20591,7 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -19523,7 +20601,7 @@ GB(4458.2-2003)
 1000
 
 1071
-        0
+0
 1000
 标准
 1000
@@ -19533,7 +20611,7 @@ ByLayer
 1041
 0.5
 1071
-        3
+3
 1041
 2.0
 1041
@@ -19547,13 +20625,13 @@ ByLayer
 1041
 1.1
 1071
-        0
+0
 1000
 
 1071
-       -1
+-1
 1071
-       -1
+-1
 1041
 4.0
 1041
@@ -19563,15 +20641,15 @@ ByLayer
 1041
 0.9
 1071
-        1
+1
 1071
-        1
+1
 1000
 序号
 1071
-        1
+1
 1071
-        2
+2
 1000
 
 1000
@@ -19579,7 +20657,7 @@ ByLayer
 1041
 1.0
 1071
-        1
+1
   0
 XRECORD
   5
@@ -19595,7 +20673,7 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -19605,7 +20683,7 @@ CAXA_DRAFT_PARTNOSTYLE
 1000
 
 1071
-        0
+0
 1000
 标准
 1000
@@ -19615,7 +20693,7 @@ ByLayer
 1041
 0.5
 1071
-        3
+3
 1041
 2.0
 1041
@@ -19629,13 +20707,13 @@ ByLayer
 1041
 1.1
 1071
-        0
+0
 1000
 
 1071
-       -1
+-1
 1071
-       -1
+-1
 1041
 4.0
 1041
@@ -19645,15 +20723,15 @@ ByLayer
 1041
 0.9
 1071
-        1
+1
 1071
-        1
+1
 1000
 序号
 1071
-        1
+1
 1071
-        2
+2
 1000
 
 1000
@@ -19661,7 +20739,7 @@ ByLayer
 1041
 1.0
 1071
-        1
+1
   0
 XRECORD
   5
@@ -19677,43 +20755,43 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
 CAXA_DRAFT_PARTNOSTYLEOVERRIDE
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
   0
 XRECORD
   5
@@ -19729,7 +20807,7 @@ FC
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -19751,7 +20829,7 @@ FC
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -19777,19 +20855,19 @@ Continuous
 1041
 0.0
 1071
-        0
+0
 1041
 0.0
 1071
-        0
+0
 1071
-        1
+1
 1070
-     1
+1
 1070
-     0
+0
 1070
-     0
+0
   0
 XRECORD
   5
@@ -19805,7 +20883,7 @@ FC
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -19831,19 +20909,19 @@ Continuous
 1041
 0.0
 1071
-        0
+0
 1041
 0.0
 1071
-        0
+0
 1071
-        1
+1
 1070
-     1
+1
 1070
-     0
+0
 1070
-     0
+0
   0
 XRECORD
   5
@@ -19859,7 +20937,7 @@ FC
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -19885,19 +20963,19 @@ Continuous
 1041
 0.0
 1071
-        0
+0
 1041
 0.0
 1071
-        0
+0
 1071
-        1
+1
 1070
-     1
+1
 1070
-     0
+0
 1070
-     0
+0
   0
 XRECORD
   5
@@ -19913,55 +20991,55 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
 CAXA_DRAFT_ROUGHSTYLEOVERRIDE
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
   0
 XRECORD
   5
-187
+18F
 102
 {ACAD_REACTORS
 330
-186
+18E
 102
 }
 330
-186
+18E
 100
 AcDbXrecord
 280
-     1
+1
 1000
 CAXA_DRAFT_STDDATA
 1071
-     5748
+5748
 1004
 1A000000310038002E0030002E0030002E003100370036003700300000001A0000002A005300740061006E0064006100720064004D006700720000003E00000001000000000000000000F03F000000000100000006000000470042000000080000002A004700420000003F00000006000000470042000000FFFF0000000080
 1004
@@ -20113,7 +21191,7 @@ F6
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -20135,7 +21213,7 @@ F6
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -20151,7 +21229,7 @@ GB(324-88)
 1041
 0.3
 1070
-     0
+0
 1041
 1.0
 1041
@@ -20169,9 +21247,9 @@ Dash
 1041
 0.0
 1071
-        0
+0
 1071
-        1
+1
 1071
 1090519039
   0
@@ -20189,7 +21267,7 @@ F6
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
@@ -20205,7 +21283,7 @@ CAXA_DRAFT_WELDSTYLE
 1041
 0.3
 1070
-     0
+0
 1041
 1.0
 1041
@@ -20223,9 +21301,9 @@ Dash
 1041
 0.0
 1071
-        0
+0
 1071
-        1
+1
 1071
 1090519039
   0
@@ -20243,39 +21321,57 @@ FA
 100
 AcDbXrecord
 280
-     1
+1
 1000
 
 1000
 CAXA_DRAFT_WELDSTYLEOVERRIDE
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
 1070
-     0
+0
+  0
+DICTIONARY
+  5
+17D
+330
+1E
+100
+AcDbDictionary
+281
+1
+  3
+CAXA_DRAFT_DATATABLEMGR
+360
+17E
+  3
+CAXA_DRAFT_PAPERINFOMGR
+360
+180
   0
 DICTIONARY
   5
@@ -20284,10 +21380,8 @@ DICTIONARY
 22
 100
 AcDbDictionary
-280
-     1
 281
-     1
+1
   3
 CAXA_DRAFT_DATATABLEMGR
 360
@@ -20299,35 +21393,79 @@ CAXA_DRAFT_PAPERINFOMGR
   0
 DICTIONARY
   5
-18A
+192
 330
 5A
 100
 AcDbDictionary
-280
-     1
 281
-     1
+1
   3
 ACAD_ROUNDTRIP_2008_TABLESTYLE_CELLSTYLEMAP
 360
-18B
+193
   0
 DICTIONARY
   5
-18C
+194
 330
 122
 100
 AcDbDictionary
-280
-     1
 281
-     1
+1
   3
 ACAD_ROUNDTRIP_2008_TABLESTYLE_CELLSTYLEMAP
 360
-18D
+195
+  0
+DICTIONARY
+  5
+17E
+102
+{ACAD_REACTORS
+330
+17D
+102
+}
+330
+17D
+100
+AcDbDictionary
+281
+1
+  3
+CAXA_DRAFT_DATATABLE_1
+350
+17F
+1001
+CAXA_DRAFT_CURRENT
+1005
+17F
+  0
+DICTIONARY
+  5
+180
+102
+{ACAD_REACTORS
+330
+17D
+102
+}
+330
+17D
+100
+AcDbDictionary
+281
+1
+  3
+CAXA_DRAFT_PAPERINFO_1
+350
+181
+1001
+CAXA_DRAFT_CURRENT
+1005
+181
   0
 DICTIONARY
   5
@@ -20343,7 +21481,7 @@ DICTIONARY
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_DATATABLE_1
 350
@@ -20367,7 +21505,7 @@ DICTIONARY
 100
 AcDbDictionary
 281
-     1
+1
   3
 CAXA_DRAFT_PAPERINFO_1
 350
@@ -20379,47 +21517,47 @@ CAXA_DRAFT_CURRENT
   0
 CELLSTYLEMAP
   5
-18B
+193
 102
 {ACAD_REACTORS
 330
-18A
+192
 102
 }
 330
-18A
+192
 100
 AcDbCellStyleMap
  90
-        3
+3
 300
 CELLSTYLE
   1
 TABLEFORMAT_BEGIN
  90
-        5
+5
 170
-     1
+1
  91
-        0
+0
  92
-    32768
+32768
  62
-   257
+257
  93
-        1
+1
 300
 CONTENTFORMAT
   1
 CONTENTFORMAT_BEGIN
  90
-        0
+0
  91
-        0
+0
  92
-      499
+475
  93
--2043130344
+-1498755816
 300
 
  40
@@ -20427,9 +21565,9 @@ CONTENTFORMAT_BEGIN
 140
 1.0
  94
-        5
+5
  62
-     0
+0
 340
 11
 144
@@ -20437,7 +21575,7 @@ CONTENTFORMAT_BEGIN
 309
 CONTENTFORMAT_END
 171
-     1
+1
 301
 MARGIN
   1
@@ -20457,135 +21595,135 @@ CELLMARGIN_BEGIN
 309
 CELLMARGIN_END
  94
-        6
+6
  95
-        1
+1
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        2
+2
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        4
+4
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        8
+8
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-       16
+16
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-       32
+32
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
@@ -20595,9 +21733,9 @@ TABLEFORMAT_END
   1
 CELLSTYLE_BEGIN
  90
-        1
+1
  91
-        1
+1
 300
 _TITLE
 309
@@ -20607,29 +21745,29 @@ CELLSTYLE
   1
 TABLEFORMAT_BEGIN
  90
-        5
+5
 170
-     1
+1
  91
-        0
+0
  92
-        0
+0
  62
-   257
+257
  93
-        1
+1
 300
 CONTENTFORMAT
   1
 CONTENTFORMAT_BEGIN
  90
-        0
+0
  91
-        0
+0
  92
-      499
+475
  93
--2043130344
+-1498755816
 300
 
  40
@@ -20637,9 +21775,9 @@ CONTENTFORMAT_BEGIN
 140
 1.0
  94
-        5
+5
  62
-     0
+0
 340
 11
 144
@@ -20647,7 +21785,7 @@ CONTENTFORMAT_BEGIN
 309
 CONTENTFORMAT_END
 171
-     1
+1
 301
 MARGIN
   1
@@ -20667,135 +21805,135 @@ CELLMARGIN_BEGIN
 309
 CELLMARGIN_END
  94
-        6
+6
  95
-        1
+1
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        2
+2
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        4
+4
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        8
+8
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-       16
+16
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-       32
+32
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
@@ -20805,9 +21943,9 @@ TABLEFORMAT_END
   1
 CELLSTYLE_BEGIN
  90
-        2
+2
  91
-        1
+1
 300
 _HEADER
 309
@@ -20817,29 +21955,29 @@ CELLSTYLE
   1
 TABLEFORMAT_BEGIN
  90
-        5
+5
 170
-     1
+1
  91
-        0
+0
  92
-        0
+0
  62
-   257
+257
  93
-        1
+1
 300
 CONTENTFORMAT
   1
 CONTENTFORMAT_BEGIN
  90
-        0
+0
  91
-        0
+0
  92
-      499
+475
  93
--2043130344
+-1498755816
 300
 
  40
@@ -20847,9 +21985,9 @@ CONTENTFORMAT_BEGIN
 140
 1.0
  94
-        2
+2
  62
-     0
+0
 340
 11
 144
@@ -20857,7 +21995,7 @@ CONTENTFORMAT_BEGIN
 309
 CONTENTFORMAT_END
 171
-     1
+1
 301
 MARGIN
   1
@@ -20877,135 +22015,135 @@ CELLMARGIN_BEGIN
 309
 CELLMARGIN_END
  94
-        6
+6
  95
-        1
+1
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        2
+2
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        4
+4
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        8
+8
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-       16
+16
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-       32
+32
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
@@ -21015,9 +22153,9 @@ TABLEFORMAT_END
   1
 CELLSTYLE_BEGIN
  90
-        3
+3
  91
-        2
+2
 300
 _DATA
 309
@@ -21025,47 +22163,47 @@ CELLSTYLE_END
   0
 CELLSTYLEMAP
   5
-18D
+195
 102
 {ACAD_REACTORS
 330
-18C
+194
 102
 }
 330
-18C
+194
 100
 AcDbCellStyleMap
  90
-        3
+3
 300
 CELLSTYLE
   1
 TABLEFORMAT_BEGIN
  90
-        5
+5
 170
-     1
+1
  91
-        0
+0
  92
-    32768
+32768
  62
-   257
+257
  93
-        1
+1
 300
 CONTENTFORMAT
   1
 CONTENTFORMAT_BEGIN
  90
-        0
+0
  91
-        0
+0
  92
-      499
+475
  93
--2043142056
+-1639670296
 300
 
  40
@@ -21073,9 +22211,9 @@ CONTENTFORMAT_BEGIN
 140
 1.0
  94
-        5
+5
  62
-     0
+0
 340
 E8
 144
@@ -21083,7 +22221,7 @@ E8
 309
 CONTENTFORMAT_END
 171
-     1
+1
 301
 MARGIN
   1
@@ -21103,135 +22241,135 @@ CELLMARGIN_BEGIN
 309
 CELLMARGIN_END
  94
-        6
+6
  95
-        1
+1
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        2
+2
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        4
+4
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        8
+8
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-       16
+16
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-       32
+32
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
@@ -21241,9 +22379,9 @@ TABLEFORMAT_END
   1
 CELLSTYLE_BEGIN
  90
-        1
+1
  91
-        0
+0
 300
 _TITLE
 309
@@ -21253,29 +22391,29 @@ CELLSTYLE
   1
 TABLEFORMAT_BEGIN
  90
-        5
+5
 170
-     1
+1
  91
-        0
+0
  92
-        0
+0
  62
-   257
+257
  93
-        1
+1
 300
 CONTENTFORMAT
   1
 CONTENTFORMAT_BEGIN
  90
-        0
+0
  91
-        0
+0
  92
-      499
+475
  93
--2043142056
+-1639670296
 300
 
  40
@@ -21283,9 +22421,9 @@ CONTENTFORMAT_BEGIN
 140
 1.0
  94
-        5
+5
  62
-     0
+0
 340
 E8
 144
@@ -21293,7 +22431,7 @@ E8
 309
 CONTENTFORMAT_END
 171
-     1
+1
 301
 MARGIN
   1
@@ -21313,135 +22451,135 @@ CELLMARGIN_BEGIN
 309
 CELLMARGIN_END
  94
-        6
+6
  95
-        1
+1
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        2
+2
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        4
+4
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        8
+8
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-       16
+16
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-       32
+32
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
@@ -21451,9 +22589,9 @@ TABLEFORMAT_END
   1
 CELLSTYLE_BEGIN
  90
-        2
+2
  91
-        0
+0
 300
 _HEADER
 309
@@ -21463,29 +22601,29 @@ CELLSTYLE
   1
 TABLEFORMAT_BEGIN
  90
-        5
+5
 170
-     1
+1
  91
-        0
+0
  92
-        0
+0
  62
-   257
+257
  93
-        1
+1
 300
 CONTENTFORMAT
   1
 CONTENTFORMAT_BEGIN
  90
-        0
+0
  91
-        0
+0
  92
-      499
+475
  93
--2043142056
+-1639670296
 300
 
  40
@@ -21493,9 +22631,9 @@ CONTENTFORMAT_BEGIN
 140
 1.0
  94
-        2
+2
  62
-     0
+0
 340
 E8
 144
@@ -21503,7 +22641,7 @@ E8
 309
 CONTENTFORMAT_END
 171
-     1
+1
 301
 MARGIN
   1
@@ -21523,135 +22661,135 @@ CELLMARGIN_BEGIN
 309
 CELLMARGIN_END
  94
-        6
+6
  95
-        1
+1
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        2
+2
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        4
+4
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-        8
+8
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-       16
+16
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
 GRIDFORMAT_END
  95
-       32
+32
 302
 GRIDFORMAT
   1
 GRIDFORMAT_BEGIN
  90
-        0
+0
  91
-        1
+1
  62
-     0
+0
  92
-       -2
+-2
 340
 14
  93
-        0
+0
  40
 0.045
 309
@@ -21661,13 +22799,177 @@ TABLEFORMAT_END
   1
 CELLSTYLE_BEGIN
  90
-        3
+3
  91
-        0
+0
 300
 _DATA
 309
 CELLSTYLE_END
+  0
+XRECORD
+  5
+17F
+102
+{ACAD_REACTORS
+330
+17E
+102
+}
+330
+17E
+100
+AcDbXrecord
+280
+1
+1071
+101
+1071
+2
+1071
+0
+1071
+0
+1071
+0
+1071
+9
+1000
+序号
+1071
+1001
+1000
+代号
+1071
+1002
+1000
+名称
+1071
+1003
+1000
+数量
+1071
+1004
+1000
+材料
+1071
+1005
+1000
+单件
+1071
+1007
+1000
+总计
+1071
+1008
+1000
+备注
+1071
+1009
+1000
+来源
+1071
+1010
+1000
+序号
+1070
+1
+1000
+
+1070
+1
+1000
+
+1070
+1
+1000
+
+1070
+1
+1000
+
+1070
+1
+1071
+0
+1071
+7
+1000
+代号
+1000
+名称
+1000
+材料
+1000
+单件
+1000
+总计
+1000
+备注
+1000
+来源
+1071
+1
+1000
+数量
+1071
+0
+1000
+
+1000
+
+1070
+1
+1005
+11E
+1071
+0
+1071
+0
+  0
+XRECORD
+  5
+181
+102
+{ACAD_REACTORS
+330
+180
+102
+}
+330
+180
+100
+AcDbXrecord
+280
+1
+ 90
+0
+ 40
+0.0
+ 40
+0.0
+ 90
+0
+ 70
+0
+ 70
+0
+ 40
+1.0
+ 90
+1
+330
+0
+330
+0
+330
+0
+330
+17F
+330
+0
+330
+0
   0
 XRECORD
   5
@@ -21683,79 +22985,79 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
 1071
-      103
+103
 1071
-        2
+2
 1071
-        0
+0
 1071
-        0
+0
 1071
-        0
+0
 1071
-        9
+9
 1000
 序号
 1071
-     1001
+1001
 1000
 代号
 1071
-     1002
+1002
 1000
 名称
 1071
-     1003
+1003
 1000
 数量
 1071
-     1004
+1004
 1000
 材料
 1071
-     1005
+1005
 1000
 单件
 1071
-     1007
+1007
 1000
 总计
 1071
-     1008
+1008
 1000
 备注
 1071
-     1009
+1009
 1000
 来源
 1071
-     1010
+1010
 1000
 序号
 1070
-     1
+1
 1000
 
 1070
-     1
+1
 1000
 
 1070
-     1
+1
 1000
 
 1070
-     1
+1
 1000
 
 1070
-     1
+1
 1071
-        0
+0
 1071
-        7
+7
 1000
 代号
 1000
@@ -21771,23 +23073,23 @@ AcDbXrecord
 1000
 来源
 1071
-        1
+1
 1000
 数量
 1071
-        0
+0
 1000
 
 1000
 
 1070
-     1
+1
 1005
 11E
 1071
-        0
+0
 1071
-        0
+0
   0
 XRECORD
   5
@@ -21803,23 +23105,23 @@ XRECORD
 100
 AcDbXrecord
 280
-     1
+1
  90
-        0
+0
  40
 420.0
  40
 297.0
  90
-        0
+0
  70
-     1
+1
  70
-     0
+0
  40
 1.0
  90
-        1
+1
 330
 12A
 330
@@ -21832,6 +23134,44 @@ AcDbXrecord
 0
 330
 0
+  0
+DICTIONARY
+  5
+19E
+330
+C
+100
+AcDbDictionary
+280
+0
+281
+1
+  0
+DICTIONARY
+  5
+1A4
+330
+C
+100
+AcDbDictionary
+281
+1
+  3
+WRITTEN_BY_EZDXF
+350
+1A5
+  0
+DICTIONARYVAR
+  5
+1A5
+330
+1A4
+100
+DictionaryVariables
+280
+0
+  1
+1.3.4 @ 2024-12-17T10:31:18.783813+00:00
   0
 ENDSEC
   0
