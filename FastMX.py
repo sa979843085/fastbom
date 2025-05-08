@@ -66,10 +66,18 @@ def delete_gg_dl(bom_data):
     """删除“规格”列和“连接器自带电缆”行"""
     if bom_data is not None and '规格' in bom_data.columns:
         bom_data = bom_data.drop(columns=['规格'])
+    """删除备注中含有“连接器自带电缆”的行"""
     if bom_data is not None :
         bom_data = bom_data[bom_data['备注'] != '连接器自带电缆']
+    """删除备注中含有“内部导线”的行"""
+    if bom_data is not None :
+        bom_data = bom_data[bom_data['备注'] != '内部导线']
+    """删除备注中含有“外购包含在”开头的行"""
+    if bom_data is not None :
+        bom_data = bom_data[~bom_data['备注'].str.startswith('外购包含在')]# 删除备注中含有“包含在”的开头的行
     bom_data = bom_data.reset_index(drop=True)
     return bom_data
+
 
 
 def parse_number(s):
